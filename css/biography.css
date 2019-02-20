@@ -1,0 +1,295 @@
+/*--- Global ---*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0E1111;
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/*--- Section: Navbar ---*/
+#navbar .content-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: 50px;
+  grid-gap: 20px;
+  min-height: auto;
+  padding: 10px;
+}
+
+#logo img {
+  display: block;
+  margin-bottom: 15px;
+  padding-bottom: 25px;
+  width: 20%;
+}
+
+#navbar a {
+  color: #FFF;
+  display: grid;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+#navbar a:hover, #navbar a:active {
+  color: #FCE205;
+  text-decoration: line-through;
+}
+
+#menu a {
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+/*--- Section: Header --- */
+#header {
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+#header-container img {
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+  width: 75%;
+}
+
+/*--- Section: Introduction ---*/
+#introduction {
+  background-color: #0E1111;
+  padding: 10px;
+}
+
+#introduction-container .content {
+  margin: 10px;
+  padding: 10px;
+}
+
+#introduction-container .content span {
+  color: #01B5CC;
+}
+
+#introduction-container .content h2 {
+  color: #FFF;
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+#introduction-container .content p {
+  color: #FFF;
+  font-size: 1rem;
+  text-align: left;
+}
+
+/*--- Section: Interests ---*/
+#interests {
+  background-color: #FFF;
+  padding: 10px;
+}
+
+#interests-container {
+  margin: 10px;
+  padding: 10px;
+}
+
+#interests-container h2 {
+  color: #0E1111;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+#interests-container h2 span {
+  color: #FF0000;
+}
+
+#interests-container h3 {
+  color: #0E1111;
+  font-size: 1rem;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#interests-container .code span {
+  color: #0000FF;
+}
+
+#interests-container .desserts span {
+  color: #6600CC;
+}
+
+/*--- Section: Footer ---*/
+#footer {
+  background-color: #0E1111;
+  padding: 10px;
+}
+
+.footer-content {
+  margin: 10px;
+  padding: 10px;
+}
+
+#footer h2 {
+  color: #FFF;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#footer p {
+  color: #FFF;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.icons-footer {
+  font-size: .7rem;
+}
+
+.icons-footer a {
+  color: #FFF;
+  padding: 10px;
+}
+
+.icons-footer a:hover, .icons-footer a:active {
+  color: #01B5CC;
+}
+
+#footer .copy {
+  font-size: .8rem;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.copy span {
+  color: #01B5CC;
+}
+
+/*--- Media Queries ---*/
+
+@media(min-width: 700px) {
+  /*--- Section: Navbar ---*/
+  #navbar .content-container {
+    padding: 35px;
+  }
+
+  #navbar a {
+    font-size: 1.4rem;
+  }
+
+  /*--- Section: Header ---*/
+  #logo img {
+    display: block;
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+    width: 7%;
+  }
+
+  #header-container img {
+    width: 35%;
+  }
+
+  /*--- Section: Introduction ---*/
+  #introduction {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+  }
+
+  #introduction-container {
+    grid-column: 1/span 2;
+    margin: auto;
+    padding: 50px;
+  }
+
+  #introduction-container .content h2 {
+    font-size: 1.8rem;
+  }
+
+  #introduction-container .content p {
+    font-size: 1.2rem;
+  }
+
+  /*--- Section: Interests ---*/
+  #interests-container {
+    display: inline-block;
+  }
+
+  #interests-container h2 {
+    font-size: 1.6rem;
+  }
+
+  #interests-container h3 {
+    font-size: 1.2rem;
+  }
+
+  #interests-container .content-1 {
+    float: left;
+    padding: 10px;
+    width: 50%;
+  }
+
+  #interests-container .content-2 {
+    float: right;
+    padding: 10px;
+    width: 50%;
+  }
+
+  #interests-container .content-3 {
+    float: left;
+    padding: 10px;
+    width: 50%;
+  }
+
+  #interests-container .content-4 {
+    float: right;
+    padding: 10px;
+    width: 50%;
+  }
+
+  #interests-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+  /*--- Section: Footer ---*/
+  #footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 50px;
+  }
+
+  .footer-container {
+    grid-column: 1/span 2;
+    padding: 10px 50px;
+  }
+
+  #footer h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  #footer p {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  #footer .copy {
+    font-size: 1.2rem;
+  }
+
+}
