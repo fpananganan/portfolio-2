@@ -273,19 +273,19 @@ img {
     padding: 10px 50px;
   }
 
-  .footer-container {
+  .footer-content {
     grid-column: 1/span 2;
     padding: 10px 50px;
   }
 
   #footer h2 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     text-align: center;
   }
 
   #footer p {
-    font-size: 1.2rem;
-    text-align: left;
+    font-size: 1.4rem;
+    text-align: center;
   }
 
   #footer .copy {

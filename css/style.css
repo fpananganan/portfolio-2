@@ -195,6 +195,10 @@ img {
     padding: 35px;
   }
 
+  #navbar .content-container #menu a {
+    font-size: 1.4rem;
+  }
+
   /*--- Section: Header --- */
   #header {
     display: grid;
@@ -213,12 +217,12 @@ img {
   }
 
   #header #header-container h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding: 10px;
   }
 
   #header #header-container p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     padding: 10px;
   }
 
@@ -253,7 +257,7 @@ img {
   }
 
   #projects p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-bottom: 10px;
     padding-top: 10px;
     text-align: left;
@@ -282,8 +286,8 @@ img {
   }
 
   #footer p {
-    font-size: 1.2rem;
-    text-align: left;
+    font-size: 1.4rem;
+    text-align: center;
   }
 
   #footer .copy {

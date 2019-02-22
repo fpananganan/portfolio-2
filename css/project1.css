@@ -1237,6 +1237,10 @@ width: 33.3%;
     margin-top: 25px;
   }
 
+  #navbar .content-container #menu a {
+    font-size: 1.4rem;
+  }
+
   /*--- Section: Overview ---*/
   #overview-container {
     display: grid;
@@ -1246,8 +1250,8 @@ width: 33.3%;
 
   #overview-container #overview-image {
     grid-column: 1/span 2;
-    margin: auto;
-    padding: 10px 50px;
+    margin-top: 65px;
+    padding: 25px 50px;
   }
 
   #overview-container .overview-content {
@@ -1285,16 +1289,16 @@ width: 33.3%;
   }
 
   /*--- Section: Problem ---*/
-  #problem {
+  #problem-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     padding: 10px 50px;
   }
 
-  #problem-container {
-    grid-column: 1/span 2;
-    margin: auto;
-    padding: 10px 50px;
+  .problem-content {
+    grid-column: 2/span 2;
+    margin: 25px;
+    padding: 25px;
   }
 
   #problem-container .problem-content h2 {
@@ -1336,19 +1340,69 @@ width: 33.3%;
   }
 
   /*--- Section: UX Design Process ---*/
+  #ux-design h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
 
-
-  /*--- Section: Market Research ---*/
-  #research {
+  #ux-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
     padding: 10px 50px;
   }
 
+  #ux-container .ux-content-1 h2 {
+    font-size: 1.6rem;
+  }
+
+  #ux-container .ux-content-1 p {
+    font-size: 1.2rem;
+  }
+
+  #ux-container .ux-content-2 h2 {
+    font-size: 1.6rem;
+  }
+
+  #ux-container .ux-content-2 p {
+    font-size: 1.2rem;
+  }
+
+  #ux-container .ux-content-3 h2 {
+    font-size: 1.6rem;
+  }
+
+  #ux-container .ux-content-3 p {
+    font-size: 1.2rem;
+  }
+
+  #ux-container .ux-content-4 h2 {
+    font-size: 1.6rem;
+  }
+
+  #ux-container .ux-content-4 p {
+    font-size: 1.2rem;
+  }
+
+  #ux-container .ux-content-5 h2 {
+    font-size: 1.6rem;
+  }
+
+  #ux-container .ux-content-5 p {
+    font-size: 1.2rem;
+  }
+
+  /*--- Section: Market Research ---*/
   #research-container {
-    grid-column: 1/span 2;
-    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     padding: 10px 50px;
+  }
+
+  .research-content {
+    grid-column: 2/span 2;
+    margin: 25px;
+    padding: 25px;
   }
 
   #research-container .research-content h2 {
@@ -1507,16 +1561,16 @@ width: 33.3%;
   }
 
   /*--- Section: Key Insights ---*/
-  #key-insights {
+  #insights-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     padding: 10px 50px;
   }
 
-  #insights-container {
-    grid-column: 1/span 2;
-    margin: auto;
-    padding: 10px 50px;
+  .insights-content {
+    grid-column: 2/span 2;
+    margin: 25px;
+    padding: 25px;
   }
 
   #insights-container .insights-content h2 {
@@ -1962,17 +2016,21 @@ width: 33.3%;
     font-size: 1.2rem;
   }
 
+  #hifi-container-2 ul {
+    font-size: 1.2rem;
+  }
+
   /*--- Section: Conclusion ---*/
-  #conlusion-container {
+  #conclusion-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     padding: 10px 50px;
   }
 
   #conclusion-container .conclusion-content {
-    grid-column: 1/span 2;
-    margin: auto;
-    padding: 10px 50px;
+    grid-column: 1/span 4;
+    margin: 25px;
+    padding: 25px 50px;
   }
 
   #conclusion-container h2 {
