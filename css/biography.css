@@ -24,14 +24,13 @@ img {
 #navbar .content-container {
   display: grid;
   grid-auto-flow: column;
-  grid-template-rows: 50px;
+  grid-template-rows: auto;
   grid-gap: 20px;
   min-height: auto;
   padding: 10px;
 }
 
 #logo img {
-  display: block;
   margin-bottom: 15px;
   padding-bottom: 25px;
   width: 20%;
@@ -44,16 +43,20 @@ img {
   text-decoration: none;
 }
 
-#navbar a:hover, #navbar a:active {
-  color: #FCE205;
-  text-decoration: line-through;
-}
-
-#menu a {
+#about a {
   padding-right: 15px;
   padding-top: 15px;
 }
 
+#work a {
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+#navbar a:hover, #navbar a:active {
+  color: #41C8D9;
+  transition: 0.5s;
+}
 /*--- Section: Header --- */
 #header {
   margin: 10px;
@@ -74,7 +77,7 @@ img {
   padding: 10px;
 }
 
-#introduction-container .content {
+#introduction-container {
   margin: 10px;
   padding: 10px;
 }
@@ -93,6 +96,30 @@ img {
   color: #FFF;
   font-size: 1rem;
   text-align: left;
+}
+
+#resume {
+  margin: auto;
+  padding: 10px;
+}
+
+.btn-resume {
+  background: #0E1111;
+  border: 1.5px solid #FFF;
+  color: #FFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  margin-top: 10px;
+  padding: 10px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.btn-resume:hover, .btn-resume:active {
+  border-color: #01B5CC;
+  color: #01B5CC;
+  transition: 0.4s;
 }
 
 /*--- Section: Interests ---*/
@@ -165,6 +192,7 @@ img {
 
 .icons-footer a:hover, .icons-footer a:active {
   color: #01B5CC;
+  transition: 0.4s;
 }
 
 #footer .copy {
@@ -185,7 +213,11 @@ img {
     padding: 35px;
   }
 
-  #navbar a {
+  #about a {
+    font-size: 1.4rem;
+  }
+
+  #work a {
     font-size: 1.4rem;
   }
 
@@ -193,6 +225,7 @@ img {
   #logo img {
     display: block;
     margin-bottom: 15px;
+    margin-left: 25px;
     padding-bottom: 25px;
     width: 7%;
   }
@@ -202,13 +235,13 @@ img {
   }
 
   /*--- Section: Introduction ---*/
-  #introduction {
+  #introduction-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 50px;
   }
 
-  #introduction-container {
+  #introduction-container .content {
     grid-column: 1/span 2;
     margin: auto;
     padding: 50px;
@@ -220,6 +253,14 @@ img {
 
   #introduction-container .content p {
     font-size: 1.2rem;
+  }
+
+  #resume {
+    grid-column: 1/span 2;
+    justify-self: center;
+    margin: 10px;
+    padding: 10px;
+    width: 35%;
   }
 
   /*--- Section: Interests ---*/

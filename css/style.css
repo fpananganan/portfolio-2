@@ -24,14 +24,13 @@ img {
 #navbar .content-container {
   display: grid;
   grid-auto-flow: column;
-  grid-template-rows: 50px;
+  grid-template-rows: auto;
   grid-gap: 20px;
   min-height: auto;
   padding: 10px;
 }
 
 #logo img {
-  display: block;
   margin-bottom: 15px;
   padding-bottom: 25px;
   width: 20%;
@@ -44,14 +43,19 @@ img {
   text-decoration: none;
 }
 
-#navbar a:hover, #navbar a:active {
-  color: #FCE205;
-  text-decoration: line-through;
-}
-
-#menu a {
+#about a {
   padding-right: 15px;
   padding-top: 15px;
+}
+
+#work a {
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+#navbar a:hover, #navbar a:active {
+  color: #41C8D9;
+  transition: 0.4s;
 }
 
 /*--- Section: Header ---*/
@@ -75,8 +79,9 @@ img {
   color: #01B5CC;
 }
 
-#header #header-container #design {
-  color: #FCE205;
+.lightSpeedIn {
+  animation-duration: 1s;
+  animation-delay: 0.5s;
 }
 
 #header #header-container h2 {
@@ -139,6 +144,7 @@ img {
 .btn:hover, .btn:active {
   color: #01B5CC;
   border-color: #01B5CC;
+  transition: 0.4s;
 }
 
 /*--- Section: Footer ---*/
@@ -175,6 +181,7 @@ img {
 
 .icons-footer a:hover, .icons-footer a:active {
   color: #01B5CC;
+  transition: 0.4s;
 }
 
 #footer .copy {
@@ -195,7 +202,11 @@ img {
     padding: 35px;
   }
 
-  #navbar .content-container #menu a {
+  #about a {
+    font-size: 1.4rem;
+  }
+
+  #work a {
     font-size: 1.4rem;
   }
 

@@ -43,14 +43,19 @@ img {
   text-decoration: none;
 }
 
-#navbar a:hover, #navbar a:active {
-  color: #FCE205;
-  text-decoration: line-through;
-}
-
-#menu a {
+#about a {
   padding-right: 15px;
   padding-top: 15px;
+}
+
+#work a {
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+#navbar a:hover, #navbar a:active {
+  color: #41C8D9;
+  transition: 0.5s;
 }
 
 /*--- Section: Overview ---*/
@@ -105,8 +110,9 @@ img {
 }
 
 .btn-desktop:hover, .btn-desktop:active {
-  color: #01B5CC;
   border-color: #01B5CC;
+  color: #01B5CC;
+  transition: 0.4s;
 }
 
 .btn-mobile {
@@ -123,8 +129,9 @@ img {
 }
 
 .btn-mobile:hover, .btn-mobile:active {
-  color: #01B5CC;
   border-color: #01B5CC;
+  color: #01B5CC;
+  transition: 0.5s;
 }
 
 /*--- Section: Problem ---*/
@@ -396,8 +403,9 @@ width: 33.3%;
 }
 
 .btn-swotanalysis:hover, .btn-swotanalysis:active {
-  color: #01B5CC;
   border-color: #01B5CC;
+  color: #01B5CC;
+  transition: 0.4s;
 }
 
 /*--- Section: User Surveys ---*/
@@ -459,8 +467,9 @@ width: 33.3%;
 }
 
 .btn-usersurvey:hover, .btn-usersurvey:active {
-  color: #01B5CC;
   border-color: #01B5CC;
+  color: #01B5CC;
+  transition: 0.4s;
 }
 
 /*--- Section: Data Analysis ---*/
@@ -736,8 +745,9 @@ width: 33.3%;
 }
 
 .btn-userstories:hover, .btn-userstories:active {
-  color: #01B5CC;
   border-color: #01B5CC;
+  color: #01B5CC;
+  transition: 0.4s;
 }
 
 /*--- Section: User Flows ---*/
@@ -806,8 +816,9 @@ width: 33.3%;
 }
 
 .btn-userflows:hover, .btn-userflows:active {
-  color: #01B5CC;
   border-color: #01B5CC;
+  color: #01B5CC;
+  transition: 0.4s;
 }
 
 /*--- Section: Wireframes & Prototype ---*/
@@ -876,8 +887,9 @@ width: 33.3%;
 }
 
 .btn-lofi:hover, .btn-lofi:active {
-  color: #D3D3D3;
   border-color: #D3D3D3;
+  color: #D3D3D3;
+  transition: 0.4s;
 }
 
 /*--- Section: LoFi Testing ---*/
@@ -1021,8 +1033,9 @@ width: 33.3%;
 }
 
 .btn-styleguide:hover, .btn-styleguide:active {
-  color: #01B5CC;
   border-color: #01B5CC;
+  color: #01B5CC;
+  transition: 0.4s;
 }
 
 /*--- Section: HiFi Prototype ---*/
@@ -1082,8 +1095,9 @@ width: 33.3%;
 }
 
 .btn-desktop-2:hover, .btn-desktop-2:active {
-  color: #01B5CC;
   border-color: #01B5CC;
+  color: #01B5CC;
+  transition: 0.4s;
 }
 
 .btn-mobile-2 {
@@ -1101,8 +1115,9 @@ width: 33.3%;
 }
 
 .btn-mobile-2:hover, .btn-mobile-2:active {
-  color: #01B5CC;
   border-color: #01B5CC;
+  color: #01B5CC;
+  transition: 0.4s;
 }
 
 /*--- Section: Hi-Fi Testing ---*/
@@ -1206,6 +1221,7 @@ width: 33.3%;
 
 .icons-footer a:hover, .icons-footer a:active {
   color: #01B5CC;
+  transition: 0.4s;
 }
 
 #footer .copy {
@@ -1223,22 +1239,23 @@ width: 33.3%;
 
   /*--- Section: Navbar ---*/
   #navbar .content-container {
-    grid-template-rows: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 35px;
+  }
+
+  #about a {
+    font-size: 1.4rem;
+  }
+
+  #work a {
+    font-size: 1.4rem;
   }
 
   #logo img {
-    width: 10%;
-  }
-
-  #menu {
-    font-size: 1.4rem;
-    margin-top: 25px;
-  }
-
-  #navbar .content-container #menu a {
-    font-size: 1.4rem;
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    padding-bottom: 25px;
+    width: 7%;
   }
 
   /*--- Section: Overview ---*/

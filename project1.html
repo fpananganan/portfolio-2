@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="css/project1.css">
     <title>Rico's Portfolio</title>
   </head>
@@ -14,10 +15,13 @@
     <header id="navbar">
       <div class="content-container">
         <div id="logo">
-          <a href="#"><img src="images/rp-logo-small.png" alt="personal icon"></a>
+          <a href="index.html"><img src="images/rp-logo-small.png" alt="personal icon"></a>
         </div>
-        <div id="menu">
-          <a href="#">Menu</a>
+        <div id="about">
+          <a href="biography.html">About</a>
+        </div>
+        <div id="work">
+          <a href="project1.html">Work</a>
         </div>
       </div>
     </header>
@@ -29,7 +33,7 @@
       <section id="overview">
         <h2>Project ARCHETYPE</h2>
         <div id="overview-container">
-          <div id="overview-image">
+          <div id="overview-image" data-aos="fade-down">
             <img src="images/project-image-1.png" alt="laptop showing screen shot of project">
           </div>
           <div class="overview-content">
@@ -43,17 +47,17 @@
               Stories & Flows, Prototyping & Testing.</p>
           </div>
           <div id="overview-desktop">
-            <button class="btn-desktop">View Desktop Prototype</button>
+            <a href="https://invis.io/ZAOK7KQTCUF" target="_blank"><button class="btn-desktop">View Desktop Prototype</button></a>
           </div>
           <div id="overview-mobile">
-            <button class="btn-mobile">View Mobile Prototype</button>
+            <a href="https://invis.io/UQOK948RTPB" target="_blank"><button class="btn-mobile">View Mobile Prototype</button></a>
           </div>
         </div>
       </section>
 
       <!--- Section: Problem --->
       <section id="problem">
-        <div id="problem-container">
+        <div id="problem-container" data-aos="fade-right">
           <div class="problem-content">
             <h2>Problem</h2>
             <p>To date, there are several cloud storage platforms available to consumers, most
@@ -66,7 +70,7 @@
 
       <!--- Section: Solution --->
       <section id="solution">
-        <div id="solution-container">
+        <div id="solution-container" data-aos="fade-left">
           <div class="solution-content">
             <h2>Solution</h2>
             <p>ARCHETYPE aims to solve that problem by streamlining these services into one main
@@ -83,35 +87,35 @@
       <section id="ux-design">
         <h2>UX Design Process</h2>
         <div id="ux-container">
-          <div class="ux-content-1">
+          <div class="ux-content-1" data-aos="flip-left">
             <h2><span>01</span> User Research</h2>
             <p>Competitive Analysis & User Suveys</p>
             <div id="ux-image-1">
               <img src="images/ux-image-1.png" alt="picture of 1st UX Design Icon">
             </div>
           </div>
-          <div class="ux-content-2">
+          <div class="ux-content-2" data-aos="flip-left">
             <h2><span>02</span> Consumer Strategy</h2>
             <p>Personas & User Stories</p>
             <div id="ux-image-2">
               <img src="images/ux-image-2.png" alt="picture of 2nd UX Design Icon">
             </div>
           </div>
-          <div class="ux-content-3">
+          <div class="ux-content-3" data-aos="flip-left">
             <h2><span>03</span> Wires & Prototyping</h2>
             <p>User Flows and Wireframes</p>
             <div id="ux-image-3">
               <img src="images/ux-image-3.png" alt="picture of 3rd UX Design Icon">
             </div>
           </div>
-          <div class="ux-content-4">
+          <div class="ux-content-4" data-aos="flip-left">
             <h2><span>04</span> Branding & Identity</h2>
             <p>Logo & Style Guide</p>
             <div id="ux-image-4">
               <img src="images/ux-image-4.png" alt="picture of 4th UX Design Icon">
             </div>
           </div>
-          <div class="ux-content-5">
+          <div class="ux-content-5" data-aos="flip-left">
             <h2><span>05</span> Graphic Design</h2>
             <p>Hi-Fi Prototype and User Testing</p>
             <div id="ux-image-5">
@@ -123,7 +127,7 @@
 
       <!--- Section: Market Research --->
       <section id="research">
-        <div id="research-container">
+        <div id="research-container" data-aos="zoom-in">
           <div class="research-content">
             <h2>Market & User Research</h2>
             <p>The cloud storage space has been around for several years and is an established
@@ -137,7 +141,7 @@
       <!---Section: Competitive Analysis --->
       <section id="analysis">
         <div id="analysis-container">
-          <div class="analysis-content">
+          <div class="analysis-content" data-aos="fade-down">
             <h2>Competitive Analysis</h2>
             <p>Google Drive, Microsoft One Drive, and DropBox were targeted as key competitors in
               the market. Through the SWOT Analysis, I was able to identify certain weaknesses and
@@ -151,7 +155,7 @@
                 are more towards the enterprise and business sector.</li>
             </ul>
           </div>
-          <div id="competitive-analysis-social-icons">
+          <div id="competitive-analysis-social-icons" data-aos="zoom-in">
             <div class="analysis-icon googledrive">
               <img src="images/competitive-analysis-googledrive.png" alt="picture of googledrive icon">
             </div>
@@ -163,7 +167,7 @@
             </div>
           </div>
           <div id="view-swot-analysis">
-            <button class="btn-swotanalysis">View SWOT Analysis</button>
+            <a href="https://drive.google.com/open?id=1yu0joQoqsUrN-z9UKsueqQD9_xJMVDj7" target="_blank"><button class="btn-swotanalysis">View SWOT Analysis</button></a>
           </div>
         </div>
       </section>
@@ -171,7 +175,7 @@
       <!--- Section: User Surveys --->
       <section id="surveys">
         <div id="survey-container">
-          <div class="survey-content">
+          <div class="survey-content" data-aos="fade-left">
             <h2>User Surveys</h2>
             <p>To gather more insight into the cloud storage space and its consumers, an understanding of
               user behavior and patterns were needed.</p>
@@ -183,11 +187,11 @@
               <li>Pain points and frustrations</li>
             </ul>
           </div>
-          <div id="survey-image">
+          <div id="survey-image" data-aos="fade-right">
             <img src="images/survey-image.png" alt="laptop showing image of survey">
           </div>
           <div id="view-user-survey">
-            <button class="btn-usersurvey">View User Survey</button>
+            <a href="https://docs.google.com/forms/d/1sfr1Q3eNE9FOV2WGB38_yh3p0oLjaV58PPjq9KM1lMg/edit#responses" target="_blank"><button class="btn-usersurvey">View User Survey</button></a>
           </div>
         </div>
       </section>
@@ -197,23 +201,23 @@
         <h2>Data Analysis</h2>
         <h3>Currently Used Services</h3>
         <div id="data-container">
-          <div class="data-content-1">
+          <div class="data-content-1" data-aos="flip-right">
             <div id="analysis-graph">
               <img src="images/data-analysis-pie.png" alt="picture of pie graph analysis">
             </div>
           </div>
-          <div class="data-content-2">
+          <div class="data-content-2" data-aos="flip-right">
             <div id="pie-graph-bullets">
               <img src="images/pie-graph-bullets.png" alt="picture of bulleted points of pie graph analysis">
             </div>
           </div>
           <div class="data-content-3">
             <h2>Most Valued Features</h2>
-            <div id="valued-features-graph">
+            <div id="valued-features-graph" data-aos="flip-right">
               <img src="images/most-valued-features-graph.png" alt="picture of horizontal graph illustrating most valued features">
             </div>
           </div>
-          <div class="data-content-4">
+          <div class="data-content-4" data-aos="flip-right">
             <h2><span>90%</span></h2>
             <p>Are familiar with cloud storage platforms</p>
             <h2><span>72%</span></h2>
@@ -227,7 +231,7 @@
 
       <!--- Section: Key Insights --->
       <section id="key-insights">
-        <div id="insights-container">
+        <div id="insights-container" data-aos="fade-up">
           <div class="insights-content">
             <h2>Key Insights</h2>
             <p>The survey data revealed that the market was well versed in the uses of cloud storage
@@ -244,7 +248,7 @@
       <!--- Section: User Personas --->
       <section id="user-personas">
         <div id="personas-container">
-          <div class="personas-content">
+          <div class="personas-content" data-aos="fade-down">
             <h2>User Personas</h2>
             <p>Using the data gained from the surveys, user personas were then created to assist with
               identifying the most common and basic functions needed from a new cloud storage platform.</p>
@@ -252,14 +256,14 @@
               And in order to address this, two user personas were created - the Visual Creator and the
               Content Collaborator.</p>
           </div>
-          <div class="persona-1">
+          <div class="persona-1" data-aos="flip-left">
             <img src="images/persona-1.png" alt="picture of female user">
             <div id="persona-intro">
               <h2>Vanessa A.</h2>
               <p>Visual Content Creator</p>
               <p>26 | Female | California</p>
             </div>
-            <div class="persona-1-content">
+            <div class="persona-1-content" data-aos="flip-left">
               <h2>Motivations</h2>
               <p>Vanessa is a busy college student at the University of San Diego, CA. A junior pursuing
                 a baccalaureate in Marine Biology, she takes on a ton of research projects - documenting
@@ -288,14 +292,14 @@
               <p id="quote"><em>"The science of today is the technology of tomorrow"</em></p>
             </div>
           </div>
-          <div class="persona-2">
+          <div class="persona-2" data-aos="flip-right">
             <img src="images/persona-2.png" alt="picture of male user">
             <div id="persona-intro">
               <h2>Maynard M.</h2>
               <p>Content Collaborator</p>
               <p>36 | Male | New York</p>
             </div>
-            <div class="persona-2-content">
+            <div class="persona-2-content" data-aos="flip-right">
               <h2>Motivations</h2>
               <p>As an early adopter of cloud storage services, Maynard primarily uses Google Drive as his "go-to" resource for work. And as a skilled
                  freelance writer, he partners with a number of clients and commonly works on a handful of projects at any given time.</p>
@@ -326,7 +330,7 @@
       <!--- Section: User Stories --->
       <section id="user-stories">
         <div id="stories-container">
-          <div class="stories-content">
+          <div class="stories-content" data-aos="fade-left">
             <h2>User Stories</h2>
             <p>With the information given from the personas alongside the data generated from the
               surveys, the next step was to list out the basic features users would need. These
@@ -338,11 +342,11 @@
               <li>Upgrade account</li>
             </ul>
           </div>
-          <div id="user-stories-image">
+          <div id="user-stories-image" data-aos="fade-right">
             <img src="images/user-stories.png" alt="picture of user stories">
           </div>
           <div id="view-user-stories">
-            <button class="btn-userstories">View User Stories</button>
+            <a href="https://docs.google.com/spreadsheets/d/1MVJZFk_Ofz2ZI0CtvO3hB2E_5BlduDAeygdyEma-qek/edit?usp=sharing" target="_blank"><button class="btn-userstories">View User Stories</button></a>
           </div>
         </div>
       </section>
@@ -350,21 +354,21 @@
       <!--- Section: User Flows --->
       <section id="user-flows">
         <div id="flows-container">
-          <div class="flows-content">
+          <div class="flows-content" data-aos="fade-down">
             <h2>User Flows</h2>
             <p>Using the most important features gained from the stories and combining that
               with the data from the personas, I then began transferring the information into
               userflows. The flows would serve as a visual blueprint of how all the needs and
               features would integrate into a functioning product.</p>
           </div>
-          <div id="user-flows-1">
+          <div id="user-flows-1" data-aos="zoom-in">
             <img src="images/user-flows-1.png" alt="picture of a sketch version of the user flows">
           </div>
-          <div id="user-flows-2">
+          <div id="user-flows-2" data-aos="zoom-in">
             <img src="images/user-flows-2.png" alt="picture of a final version of the user flows">
           </div>
           <div id="view-user-flows">
-            <button class="btn-userflows">View User Flows</button>
+            <a href="https://drive.google.com/open?id=1-5jAO7bfBy-Y23jwhe_qtyfPbXWAqEI5" target="_blank"><button class="btn-userflows">View User Flows</button></a>
           </div>
         </div>
       </section>
@@ -372,21 +376,21 @@
       <!--- Section: Wireframes & Prototype --->
       <section id="wireframes-prototype">
         <div id="wireframes-container">
-          <div class="prototype-content">
+          <div class="prototype-content" data-aos="fade-down">
             <h2>Wireframes & Prototype</h2>
             <p>Referencing the user flows as a guide, I then began sketching out the basic
               wireframes that would serve as a visual aid of how the application could operate.</p>
             <p>Once the sketches were complete, I then used Figma to replicate the sketches so
               as to transform them into a Lo-Fi clickable prototype for user testing.</p>
           </div>
-          <div id="prototype-1">
+          <div id="prototype-1" data-aos="zoom-in">
             <img src="images/prototype-1.png" alt="picture of a sketch illustrating the prototype">
           </div>
-          <div id="prototype-2">
+          <div id="prototype-2" data-aos="zoom-in">
             <img src="images/prototype-2.png" alt="picture of a final version of the prototype">
           </div>
           <div id="view-lofi-prototype">
-            <button class="btn-lofi">View Lo-Fi Prototype</button>
+            <a href="https://invis.io/7VNDOTVEFGA" target="_blank"><button class="btn-lofi">View Lo-Fi Prototype</button></a>
           </div>
         </div>
       </section>
@@ -394,7 +398,7 @@
       <!--- Section: LoFi Testing --->
       <section id="lofi-testing">
         <div id="testing-container">
-          <div class="testing-content">
+          <div class="testing-content" data-aos="fade-left">
             <h2>Lo-Fi Testing</h2>
             <p>After the initial wireframes were finished, I then imported them to InVission where
               they were put together to construct a Lo-Fi clickable prototype. User testing was
@@ -408,7 +412,7 @@
               <li>Address spacing of buttons and typography throughout entire layout of design</li>
             </ul>
           </div>
-          <div id="testing-images">
+          <div id="testing-images" data-aos="fade-right">
             <img src="images/lofi-testing-images.png" alt="images highlighting changes to prototype after user testing">
           </div>
         </div>
@@ -417,7 +421,7 @@
       <!--- Section: Branding & Logo 1 --->
       <section id="branding-logo-1">
         <div id="logo-container-1">
-          <div class="logo-content-1">
+          <div class="logo-content-1" data-aos="fade-left">
             <h2>Branding</h2>
             <p>Given that this industry was already a heavily saturated market, I had to identify
               a point of entry to make a splash large enough for consumers to notice. In order to
@@ -432,7 +436,7 @@
               stand for ideas that are attractive yet simple with a creative personality and can be
               accessible to any professional content creator.</p>
           </div>
-          <div id="logo-sketches-1">
+          <div id="logo-sketches-1" data-aos="zoom-in">
             <img src="images/logo-sketches-1.png" alt="sketches of mind-mapping">
           </div>
         </div>
@@ -441,7 +445,7 @@
       <!---Section: Branding & Logo 2 --->
       <section id="branding-logo-2">
         <div id="logo-container-2">
-          <div class="logo-content-2">
+          <div class="logo-content-2" data-aos="fade-right">
             <h2>Logo</h2>
             <p>For the logo portion, I knew I wanted it to represent something that was synonymous
               of what ARCHETYPE stood for.</p>
@@ -451,7 +455,7 @@
               everyday conversation and is unique enough to evoke a sense of curiousity regarding
               the brand's character and personality.</p>
           </div>
-          <div id="logo-final">
+          <div id="logo-final" data-aos="zoom-in">
             <img src="images/logo-final.png" alt="final logo">
           </div>
         </div>
@@ -460,25 +464,25 @@
       <!--- Section: Typography --->
       <section id="typography">
         <div id="typography-container">
-          <div class="typography-content-1">
+          <div class="typography-content-1" data-aos="fade-left">
             <h2>Typography</h2>
             <p>Two typefaces were chosen for this brand that were intended to represent a strong
               charisma that is associated with the mood of what defines the brand</p>
           </div>
-          <div class="typography-content-2">
+          <div class="typography-content-2" data-aos="fade-right">
             <h2>Brand Typeface</h2>
             <p><b>Montserrat</b> is the primary typeface of ARCHETYPE which is mainly used for
               headlines and displays. The typeface comes in a number of variations in weights
               and sizes</p>
           </div>
-          <div id="brand-typeface">
+          <div id="brand-typeface" data-aos="flip-right">
             <img src="images/typography-image-1.png" alt="picture of brand typeface">
           </div>
-          <div class="typography-content-3">
+          <div class="typography-content-3" data-aos="fade-left">
             <h2>Complimentary Typeface</h2>
             <p><b>Lato</b> is the second typeface that will be used for subtitles and body text.</p>
           </div>
-          <div id="complimentary-typeface">
+          <div id="complimentary-typeface" data-aos="flip-left">
             <img src="images/typography-image-2.png" alt="picture of complimentary typeface">
           </div>
         </div>
@@ -487,7 +491,7 @@
       <!--- Section: Colors --->
       <section id="colors">
         <div id="colors-container">
-          <div class="colors-content-1">
+          <div class="colors-content-1" data-aos="fade-left">
             <h2>Colors</h2>
             <p>Three layers for the color palette were chosen, each representing a certain identity
               that would be expressed throughout the brand's overall look and character.</p>
@@ -504,11 +508,11 @@
               cohesive style guide that would serve as a blueprint to reference the brand's overall
               design patterns and preserve the brand's identity.</p>
           </div>
-          <div id="color-palette">
+          <div id="color-palette" data-aos="fade-right">
             <img src="images/colors-image.png" alt="picture of brand's color palette">
           </div>
           <div id="style-guide">
-            <button class="btn-styleguide">View Style Guide</button>
+            <a href="https://www.figma.com/file/CyRWfxQFRCqADVyqksKoxDIO/Style-Guide-Project-ARCHETYPE?node-id=0%3A1" target="_blank"><button class="btn-styleguide">View Style Guide</button></a>
           </div>
         </div>
       </section>
@@ -516,7 +520,7 @@
       <!--- Section: HiFi Prototype 1 --->
       <section id="hifi-prototype-1">
         <div id="hifi-container-1">
-          <div class="hifi-content-1">
+          <div class="hifi-content-1" data-aos="fade-down">
             <h2>Hi-Fi Prototype</h2>
             <p>Once the style guide was completed, I circled back to the original wireframes and
               mockups used for the low-fidelity prototype and began designing the high-fidelity
@@ -525,17 +529,17 @@
               testing among a small group of participants. This was to ensure that the best and well
               qualified designs were focused on and presented in the final product.</p>
           </div>
-          <div id="preference-testing-1">
+          <div id="preference-testing-1" data-aos="zoom-in">
             <img src="images/preference-testing-1.png" alt="picture of landing page before preference test">
           </div>
-          <div id="preference-testing-2">
+          <div id="preference-testing-2" data-aos="zoom-in">
             <img src="images/preference-testing-2.png" alt="picture of landing page after preference test">
           </div>
           <div id="desktop-prototype">
-            <button class="btn-desktop-2">View Desktop Prototype</button>
+            <a href="https://invis.io/ZAOK7KQTCUF" target="_blank"><button class="btn-desktop-2">View Desktop Prototype</button></a>
           </div>
           <div id="mobile-prototype">
-            <button class="btn-mobile-2">View Mobile Prototype</button>
+            <a href="https://invis.io/UQOK948RTPB" target="_blank"><button class="btn-mobile-2">View Mobile Prototype</button></a>
           </div>
         </div>
       </section>
@@ -543,7 +547,7 @@
       <!--- Section: Hi-Fi Testing --->
       <section id="hifi-testing">
         <div id="hifi-container-2">
-          <div class="hifi-content-2">
+          <div class="hifi-content-2" data-aos="fade-up">
             <h2>Hi-Fi Testing</h2>
             <p>User testing was conducted in-person and also in tandem with the revision and iteration
               process. The reason behind these on-going user tests was to identify if there were any other
@@ -557,13 +561,13 @@
                 simple application</li>
             </ul>
           </div>
-          <div id="hifi-refinement-1">
+          <div id="hifi-refinement-1" data-aos="flip-right">
             <img src="images/refinement-1.png" alt="picture of user-dashboard before refinement">
           </div>
-          <div id="hifi-refinement-2">
+          <div id="hifi-refinement-2" data-aos="flip-left">
             <img src="images/refinement-2.png" alt="picture of user-dashboard after refinement">
           </div>
-          <div class="hifi-content-3">
+          <div class="hifi-content-3" data-aos="fade-up">
             <p>Adjusted and repositioned upload button, changed color of side tab to match status bar,
               and realigned typography for a more tighter and cleaner look.</p>
           </div>
@@ -573,7 +577,7 @@
       <!--- Section: Conclusion --->
       <section id="conclusion">
         <div id="conclusion-container">
-          <div class="conclusion-content">
+          <div class="conclusion-content" data-aos="fade-up">
             <h2>Conclusion</h2>
             <h3>Takeaways</h3>
             <p>The undertaking of this project was definitely a challenge, but it was also fun. During the
@@ -598,14 +602,21 @@
           <p>Thanks for stopping by. Hopefully you enjoyed what you saw. If you would like to know
             more about my work, please drop me a line or let's chat over a cup of coffee.</p>
           <div class="icons-footer">
-            <a class="contact-icon email" href="#"><i class="fa fa-envelope fa-3x color" aria-hidden="true"></i></a>
-            <a class="social-icon instragram" href="#"><i class="fa fa-instagram fa-3x color" aria-hidden="true"></i></a>
-            <a class="social-icon github" href="#"><i class="fa fa-github fa-3x color" aria-hidden="true"></i></a>
-            <a class="social-icon linkedin" href="#"><i class="fa fa-linkedin fa-3x color" aria-hidden="true"></i></a>
+            <a class="contact-icon email" href="mailto:fpananganan@gmail.com" target="_top"><i class="fa fa-envelope fa-3x color" aria-hidden="true"></i></a>
+            <a class="social-icon instragram" href="https://www.instagram.com/rico671.ux/" target="_blank"><i class="fa fa-instagram fa-3x color" aria-hidden="true"></i></a>
+            <a class="social-icon github" href="https://github.com/fpananganan" target="_blank"><i class="fa fa-github fa-3x color" aria-hidden="true"></i></a>
+            <a class="social-icon linkedin" href="https://www.linkedin.com/in/rpananganan671/" target="_blank"><i class="fa fa-linkedin fa-3x color" aria-hidden="true"></i></a>
           </div>
           <p class="copy">&copy; <span>Designed</span> and <span>Coded</span> by <span>Rico Pananganan</span></p>
         </div>
       </section>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init({
+         offset: 200,
+         duration: 1000,
+       });
+     </script>
   </body>
 </html>

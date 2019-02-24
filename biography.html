@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="css/biography.css">
     <title>Rico's Portfolio</title>
   </head>
@@ -14,11 +16,14 @@
     <header id="navbar">
       <div class="content-container">
         <div id="logo">
-          <a href="#"><img src="images/rp-logo-small.png" alt="personal icon"></a>
+          <a href="index.html"><img src="images/rp-logo-small.png" alt="personal icon"></a>
         </div>
-        <div id="menu">
-          <a href="#">Menu</a>
-        </div>  
+        <div id="about">
+          <a href="biography.html">About</a>
+        </div>
+        <div id="work">
+          <a href="project1.html">Work</a>
+        </div>
       </div>
     </header>
 
@@ -49,7 +54,7 @@
             <p>Since then, I've been drawn to designs of various backgrounds - from the beautiful
               architectural structures in Dubai (haven't been, but one day I'll make it there to
               see them in person), to the intricate wrapping of a Christmas gift that I'd be
-              hesitant to wrip into because I don't want to ruin the beauty of it, down to the simple
+              hesitant to rip into simply because I wouldn't want to ruin the beauty of it, down to the simple
               packaging of a brand new iPhone.</p>
             <h2><span>// Call to Action</span></h2>
             <p>Having worked most of my professional life in Corporate America meant spending a lot
@@ -72,6 +77,9 @@
               my business accumen so as to create intuitive solutions that not only addresses the customer's
               concerns, but would also fall inline with the company's organizational goals.</p>
           </div>
+          <div id="resume">
+            <a href="#"><button class="btn-resume">View Resume</button></a>
+          </div>
         </div>
       </section>
 
@@ -79,19 +87,19 @@
       <section id="interests">
         <div id="interests-container">
           <h2><b>Things I love <span><3</span></b></h2>
-          <div class="content-1">
+          <div class="content-1" data-aos="fade-up">
             <h3>My Better Half</h3>
             <img src="images/my-better-half.png" alt="Rico's significant other">
           </div>
-          <div class="content-2">
+          <div class="content-2" data-aos="fade-down">
             <h3 class="code">Code <span>#anyonecancode!</span></h3>
             <img src="images/code.png" alt="laptop with code background">
           </div>
-          <div class="content-3">
+          <div class="content-3" data-aos="fade-right">
             <h3 class="desserts">Desserts <span>#sweetooth!</span></h3>
             <img src="images/desserts.png" alt="picture of frozen hot chocolate">
           </div>
-          <div class="content-4">
+          <div class="content-4" data-aos="zoom-in">
             <h3>Traveling</h3>
             <img src="images/traveling.png" alt="picture of plane tickets">
           </div>
@@ -105,14 +113,21 @@
           <p>Thanks for stopping by. Hopefully you enjoyed what you saw. If you would like to know
             more about my work, please drop me a line or let's chat over a cup of coffee.</p>
           <div class="icons-footer">
-            <a class="contact-icon email" href="#"><i class="fa fa-envelope fa-3x color" aria-hidden="true"></i></a>
-            <a class="social-icon instragram" href="#"><i class="fa fa-instagram fa-3x color" aria-hidden="true"></i></a>
-            <a class="social-icon github" href="#"><i class="fa fa-github fa-3x color" aria-hidden="true"></i></a>
-            <a class="social-icon linkedin" href="#"><i class="fa fa-linkedin fa-3x color" aria-hidden="true"></i></a>
+            <a class="contact-icon email" href="mailto:fpananganan@gmail.com" target="_top"><i class="fa fa-envelope fa-3x color" aria-hidden="true"></i></a>
+            <a class="social-icon instragram" href="https://www.instagram.com/rico671.ux/" target="_blank"><i class="fa fa-instagram fa-3x color" aria-hidden="true"></i></a>
+            <a class="social-icon github" href="https://github.com/fpananganan" target="_blank"><i class="fa fa-github fa-3x color" aria-hidden="true"></i></a>
+            <a class="social-icon linkedin" href="https://www.linkedin.com/in/rpananganan671/" target="_blank"><i class="fa fa-linkedin fa-3x color" aria-hidden="true"></i></a>
           </div>
           <p class="copy">&copy; <span>Designed</span> and <span>Coded</span> by <span>Rico Pananganan</span></p>
         </div>
       </section>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init({
+         offset: 300,
+         duration: 1000,
+       });
+     </script>
   </body>
 </html>
