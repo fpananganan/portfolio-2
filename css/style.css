@@ -80,8 +80,8 @@ img {
 }
 
 .lightSpeedIn {
-  animation-duration: 1s;
-  animation-delay: 0.5s;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
 }
 
 #header #header-container h2 {
