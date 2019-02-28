@@ -106,7 +106,7 @@ img {
   padding: 10px;
 }
 
-#projects .projects-content {
+#projects-container {
   margin: 10px;
   padding: 10px;
 }
@@ -114,7 +114,8 @@ img {
 #projects h2 {
   color: #0E1111;
   font-size: 1.4rem;
-  text-align: left;
+  margin: 10px;
+  text-align: center;
 }
 
 #projects p {
@@ -195,7 +196,7 @@ img {
 }
 
 /*--- Media Queries ---*/
-@media(min-width: 700px) {
+@media(min-width: 800px) {
 
   /*--- Section: Navbar ---*/
   #navbar .content-container {
@@ -213,12 +214,12 @@ img {
   /*--- Section: Header --- */
   #header {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding: 50px;
   }
 
   #header-container {
-    grid-column: 1/span 2;
+    grid-column: 2/span 4;
   }
 
   #header #header-container h1 {
@@ -250,7 +251,7 @@ img {
     display: grid;
     grid-gap: 25px;
     grid-template-columns: repeat(4, 1fr);
-    padding: 50px;
+    padding: 10px 50px;
   }
 
   #projects h2 {
@@ -282,13 +283,13 @@ img {
   /*--- Section: Footer ---*/
   #footer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding: 10px 50px;
   }
 
   .footer-container {
-    grid-column: 1/span 2;
-    padding: 10px 50px;
+    grid-column: 2/span 4;
+    padding: 25px 10px;
   }
 
   #footer h2 {

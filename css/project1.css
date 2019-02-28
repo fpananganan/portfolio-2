@@ -575,6 +575,12 @@ width: 33.3%;
   padding: 10px;
 }
 
+#user-personas h2 {
+  color: #0E1111;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
 #personas-container {
   margin: 10px;
   padding: 10px;
@@ -713,16 +719,46 @@ width: 33.3%;
   text-align: left;
 }
 
-#user-stories-image {
-  margin: 10px;
-  padding: 10px;
+#user-stories-table {
+  border-collapse: collapse;
+  display: inline-block;
+  table-layout: fixed;
+  width: 100%;
 }
 
-#user-stories-image img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.new-user-content tbody {
+  display:block;
+  font-family: 'Roboto', Sans-Serif;
+  height: 200px;
+  overflow: auto;
   width: 100%;
+}
+
+.new-user-content thead tr {
+  font-family: 'Roboto', Sans-Serif;
+  font-size: 1rem;
+  display: block;
+  text-align: center;
+}
+
+.new-user-content thead {
+  background-color: #01B5CC;
+  color: #FFF;
+  display: block;
+}
+
+.new-user-content th {
+  padding: 5px;
+  text-align: left;
+  width: 200px;
+}
+
+.new-user-content td {
+  color: #0E1111;
+  font-size: 1rem;
+  padding: 5px;
+  text-align: left;
+  width: 200px;
 }
 
 #view-user-stories {
@@ -1314,8 +1350,8 @@ width: 33.3%;
 
   .problem-content {
     grid-column: 2/span 2;
-    margin: 25px;
-    padding: 25px;
+    margin: auto;
+    padding: 10px;
   }
 
   #problem-container .problem-content h2 {
@@ -1418,8 +1454,8 @@ width: 33.3%;
 
   .research-content {
     grid-column: 2/span 2;
-    margin: 25px;
-    padding: 25px;
+    margin: auto;
+    padding: 10px;
   }
 
   #research-container .research-content h2 {
@@ -1586,8 +1622,8 @@ width: 33.3%;
 
   .insights-content {
     grid-column: 2/span 2;
-    margin: 25px;
-    padding: 25px;
+    margin: auto;
+    padding: 10px;
   }
 
   #insights-container .insights-content h2 {
@@ -1603,14 +1639,18 @@ width: 33.3%;
   #personas-container {
     display: grid;
     grid-gap: 25px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding: 10px 50px;
   }
 
   #personas-container .personas-content {
-    grid-column: 1/span 2;
+    grid-column: 2/span 5;
     margin: auto;
-    padding: 10px 50px;
+    padding: 10px;
+  }
+
+  #user-personas h2 {
+    font-size: 1.8rem;
   }
 
   #personas-container .personas-content h2 {
@@ -1622,13 +1662,13 @@ width: 33.3%;
   }
 
   .persona-1 {
-    grid-column: 1;
+    grid-column: 1/span 3;
     margin: 10px;
     padding: 10px;
   }
 
   .persona-2 {
-    grid-column: 2;
+    grid-column: 4/span 6;
     margin: 10px;
     padding: 10px;
   }
@@ -1636,28 +1676,33 @@ width: 33.3%;
   /*--- Section: User Stories ---*/
   #stories-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding: 10px 50px;
   }
 
   #stories-container .stories-content {
-    grid-column: 1/span 2;
+    grid-column: 1/span 3;
     margin: auto;
     padding: 10px 50px;
   }
 
-  #stories-container #user-stories-image {
-    grid-column: 3/span 4;
+  #stories-container #user-stories-table {
+    display: flex;
+    grid-column: 4/span 6;
     margin: auto;
-    padding: 10px 50px;
+    padding: 25px 50px;
+  }
+
+  .new-user-content tbody {
+    height: 325px;
   }
 
   #view-user-stories {
-    grid-column: 2/span 2;
+    grid-column: 2/span 4;
     justify-self: center;
     margin: 10px;
     padding: 10px;
-    width: 65%;
+    width: 50%;
   }
 
   #stories-container .stories-content h2 {
@@ -1676,24 +1721,24 @@ width: 33.3%;
   /*--- Section: User Flows ---*/
   #flows-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding: 10px 50px;
   }
 
   #flows-container .flows-content {
-    grid-column: 1/span 4;
+    grid-column: 2/span 4;
     margin: auto;
-    padding: 10px 50px;
+    padding: 10px;
   }
 
   #flows-container #user-flows-1 {
-    grid-column: 1/span 2;
+    grid-column: 1/span 3;
     margin: auto;
     padding: 10px 50px;
   }
 
   #flows-container #user-flows-2 {
-    grid-column: 3/span 4;
+    grid-column: 4/span 6;
     margin: auto;
     padding: 10px 50px;
   }
@@ -1703,11 +1748,11 @@ width: 33.3%;
   }
 
   #view-user-flows {
-    grid-column: 2/span 2;
+    grid-column: 2/span 4;
     justify-self: center;
     margin: 10px;
     padding: 10px;
-    width: 65%;
+    width: 50%;
   }
 
   #flows-container h2 {
@@ -1721,34 +1766,34 @@ width: 33.3%;
   /*--- Section: Wireframes & Prototype ---*/
   #wireframes-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding: 10px 50px;
   }
 
   #wireframes-container .prototype-content {
-    grid-column: 1/span 4;
+    grid-column: 2/span 4;
     margin: auto;
-    padding: 10px 50px;
+    padding: 10px;
   }
 
   #wireframes-container #prototype-1 {
-    grid-column: 1/span 2;
+    grid-column: 1/span 3;
     margin: auto;
     padding: 10px 50px;
   }
 
   #wireframes-container #prototype-2 {
-    grid-column: 3/span 4;
+    grid-column: 4/span 6;
     margin: auto;
     padding: 10px 50px;
   }
 
   #view-lofi-prototype {
-    grid-column: 2/span 2;
+    grid-column: 2/span 4;
     justify-self: center;
     margin: 10px;
     padding: 10px;
-    width: 65%;
+    width: 50%;
   }
 
   #wireframes-container h2 {
@@ -1864,36 +1909,36 @@ width: 33.3%;
   /*--- Section: Typography ---*/
   #typography-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding: 10px 50px;
   }
 
   #typography-container .typography-content-1 {
-    grid-column: 1/span 4;
+    grid-column: 2/span 4;
     margin: auto;
     padding: 10px 50px;
   }
 
   #typography-container .typography-content-2 {
-    grid-column: 1/span 2;
+    grid-column: 1/span 3;
     margin: auto;
     padding: 10px 50px;
   }
 
   #typography-container #brand-typeface {
-    grid-column: 3/span 4;
+    grid-column: 4/span 6;
     margin: auto;
     padding: 10px 50px;
   }
 
   #typography-container .typography-content-3 {
-    grid-column: 1/span 2;
+    grid-column: 1/span 3;
     margin: auto;
     padding: 10px 50px;
   }
 
   #typography-container #complimentary-typeface {
-    grid-column: 3/span 4;
+    grid-column: 4/span 6;
     margin: auto;
     padding: 10px 50px;
   }
@@ -1909,28 +1954,28 @@ width: 33.3%;
   /*--- Section: Colors ---*/
   #colors-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding: 10px 50px;
   }
 
   #colors-container .colors-content-1 {
-    grid-column: 1/span 2;
+    grid-column: 1/span 3;
     margin: auto;
     padding: 10px 50px;
   }
 
   #colors-container #color-palette {
-    grid-column: 3/span 4;
+    grid-column: 4/span 6;
     margin: 50px;
     padding: 50px;
   }
 
   #style-guide {
-    grid-column: 2/span 2;
+    grid-column: 2/span 4;
     justify-self: center;
     margin: 10px;
     padding: 10px;
-    width: 65%;
+    width: 50%;
   }
 
   #colors-container h2 {
@@ -1983,7 +2028,7 @@ width: 33.3%;
     justify-self: center;
     margin: 10px;
     padding: 10px;
-    width: 65%;
+    width: 50%;
   }
 
   #mobile-prototype {
@@ -1991,36 +2036,36 @@ width: 33.3%;
     justify-self: center;
     margin: 10px;
     padding: 10px;
-    width: 65%;
+    width: 50%;
   }
 
   /*--- Section: HiFi Testing ---*/
   #hifi-container-2 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding: 10px 50px;
   }
 
   #hifi-container-2 .hifi-content-2 {
-    grid-column: 1/span 2;
+    grid-column: 2/span 4;
     margin: auto;
-    padding: 10px 50px;
+    padding: 10px;
   }
 
   #hifi-container-2 .hifi-content-3 {
-    grid-column: 1/span 2;
+    grid-column: 2/span 4;
     margin: auto;
-    padding: 10px 50px;
+    padding: 10px;
   }
 
   #hifi-refinement-1 {
-    grid-column: 1;
+    grid-column: 1/span 3;
     margin: 10px;
     padding: 10px;
   }
 
   #hifi-refinement-2 {
-    grid-column: 2;
+    grid-column: 4/span 3;
     margin: 10px;
     padding: 10px;
   }
@@ -2040,14 +2085,14 @@ width: 33.3%;
   /*--- Section: Conclusion ---*/
   #conclusion-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding: 10px 50px;
   }
 
   #conclusion-container .conclusion-content {
-    grid-column: 1/span 4;
-    margin: 25px;
-    padding: 25px 50px;
+    grid-column: 2/span 4;
+    margin: auto;
+    padding: 25px 10px;
   }
 
   #conclusion-container h2 {
@@ -2065,13 +2110,13 @@ width: 33.3%;
   /*--- Section: Footer ---*/
   #footer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding: 10px 50px;
   }
 
   .footer-container {
-    grid-column: 1/span 2;
-    padding: 10px 50px;
+    grid-column: 2/span 4;
+    padding: 25px 10px;
   }
 
   #footer h2 {
@@ -2080,7 +2125,7 @@ width: 33.3%;
   }
 
   #footer p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: center;
   }
 
