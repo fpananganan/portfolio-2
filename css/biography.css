@@ -20,6 +20,10 @@ img {
   height: auto;
 }
 
+main {
+  align-content: center;
+}
+
 /*--- Section: Navbar ---*/
 #navbar .content-container {
   display: grid;
@@ -30,33 +34,33 @@ img {
   padding: 10px;
 }
 
+#logo {
+  padding: 10px 15px;
+}
+
 #logo img {
-  margin-bottom: 15px;
-  padding-bottom: 25px;
-  width: 30%;
+  width: 65px;
+}
+
+#menu {
+  padding: 20px;
+}
+
+#menu a:nth-child(2) {
+  padding-left: 25px;
 }
 
 #navbar a {
-  color: #FFF;
-  display: grid;
+  color: #F5F5F5;
   font-size: 1.2rem;
   text-decoration: none;
-}
-
-#about a {
-  padding-right: 15px;
-  padding-top: 15px;
-}
-
-#work a {
-  padding-right: 15px;
-  padding-top: 15px;
 }
 
 #navbar a:hover, #navbar a:active {
   color: #41C8D9;
   transition: 0.5s;
 }
+
 /*--- Section: Header --- */
 #header {
   margin: 10px;
@@ -87,32 +91,33 @@ img {
 }
 
 #introduction-container .content h2 {
-  color: #FFF;
+  color: #F5F5F5;
   font-size: 1.4rem;
   text-align: left;
 }
 
 #introduction-container .content p {
-  color: #FFF;
+  color: #F5F5F5;
   font-size: 1rem;
   text-align: left;
 }
 
 #resume {
   margin: auto;
-  padding: 10px;
+  padding: 25px;
 }
 
 .btn-resume {
   background: #0E1111;
-  border: 1.5px solid #FFF;
-  color: #FFF;
+  border: 2px solid #F5F5F5;
+  color: #F5F5F5;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
-  margin-top: 10px;
+  margin: 10px;
   padding: 10px;
   text-decoration: none;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -125,7 +130,7 @@ img {
 /*--- Section: Interests ---*/
 #interests {
   background-color: #FFF;
-  padding: 10px;
+  padding-bottom: 10px;
 }
 
 #interests-container {
@@ -133,9 +138,27 @@ img {
   padding: 10px;
 }
 
+#interests-container .content-1 {
+  padding-top: 10px;
+}
+
+#interests-container .content-2 {
+  padding-top: 25px;
+}
+
+#interests-container .content-3 {
+  padding-top: 25px;
+}
+
+#interests-container .content-4 {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
 #interests-container h2 {
   color: #0E1111;
   font-size: 1.4rem;
+  padding-top: 25px;
   text-align: center;
 }
 
@@ -143,7 +166,7 @@ img {
   color: #FF0000;
 }
 
-#interests-container h3 {
+#interests-container figcaption {
   color: #0E1111;
   font-size: 1rem;
   padding-top: 10px;
@@ -164,19 +187,19 @@ img {
   padding: 10px;
 }
 
-.footer-content {
+.footer-container {
   margin: 10px;
   padding: 10px;
 }
 
 #footer h2 {
-  color: #FFF;
+  color: #F5F5F5;
   font-size: 1.2rem;
   text-align: center;
 }
 
 #footer p {
-  color: #FFF;
+  color: #F5F5F5;
   font-size: 1rem;
   text-align: center;
 }
@@ -186,7 +209,7 @@ img {
 }
 
 .icons-footer a {
-  color: #FFF;
+  color: #F5F5F5;
   padding: 10px;
 }
 
@@ -197,6 +220,7 @@ img {
 
 #footer .copy {
   font-size: .8rem;
+  padding-bottom: 25px;
   padding-top: 5px;
   text-align: center;
 }
@@ -205,30 +229,32 @@ img {
   color: #01B5CC;
 }
 
-/*--- Media Queries ---*/
+/*--- Media Queries: Screens 500px and Above ---*/
 
-@media(min-width: 600px) {
+@media(min-width: 500px) {
   /*--- Section: Navbar ---*/
-  #navbar .content-container {
-    padding: 35px;
+  #logo {
+    padding: 10px 15px;
   }
 
-  #about a {
-    font-size: 1.4rem;
+  #logo img {
+    width: 75px;
   }
 
-  #work a {
-    font-size: 1.4rem;
+  #navbar a {
+    font-size: 1.2rem;
+  }
+
+  #menu {
+    margin-right: 25px;
+    text-align: right;
+  }
+
+  #menu a:nth-child(2) {
+    padding-left: 35px;
   }
 
   /*--- Section: Header ---*/
-  #logo img {
-    display: block;
-    margin-bottom: 15px;
-    margin-left: 25px;
-    padding-bottom: 25px;
-    width: 7%;
-  }
 
   #header-container img {
     width: 35%;
@@ -242,9 +268,9 @@ img {
   }
 
   #introduction-container .content {
-    grid-column: 2/span 4;
+    grid-column: 1/span 6;
     margin: auto;
-    padding: 50px;
+    padding: auto;
   }
 
   #introduction-container .content h2 {
@@ -259,8 +285,8 @@ img {
     grid-column: 2/span 4;
     justify-self: center;
     margin: 10px;
-    padding: 10px;
-    width: 50%;
+    padding: 25px;
+    width: 100%;
   }
 
   /*--- Section: Interests ---*/
@@ -290,13 +316,13 @@ img {
 
   #interests-container .content-3 {
     float: left;
-    padding: 10px;
+    padding-bottom: 25px;
     width: 50%;
   }
 
   #interests-container .content-4 {
     float: right;
-    padding: 10px;
+    padding-bottom: 25px;
     width: 50%;
   }
 
@@ -307,16 +333,14 @@ img {
     width: 75%;
   }
 
-  /*--- Section: Footer ---*/
   #footer {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 10px 50px;
+    padding: 10px 25px;
   }
 
   .footer-container {
-    grid-column: 2/span 4;
-    padding: 25px 10px;
+    grid-column: 1/span 6;
   }
 
   #footer h2 {
@@ -325,12 +349,33 @@ img {
   }
 
   #footer p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
   }
 
   #footer .copy {
-    font-size: 1.2rem;
+    font-size: 1rem;
+  }
+}
+
+@media(min-width: 800px) {
+  /*--- Section: Navbar ---*/
+  #logo img {
+    width: 100px;
   }
 
+  /*--- Section: Introduction ---*/
+  #introduction-container .content {
+    grid-column: 2/span 4;
+  }
+
+  #resume {
+    justify-self: center;
+    width: 50%;
+  }
+
+  /*--- Section: Footer ---*/
+  .footer-container {
+    grid-column: 2/span 4;
+  }
 }

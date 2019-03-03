@@ -30,27 +30,28 @@ img {
   padding: 10px;
 }
 
+#logo {
+  padding: 10px 15px;
+}
+
 #logo img {
-  margin-bottom: 15px;
-  padding-bottom: 25px;
-  width: 30%;
+  width: 65px;
+}
+
+#menu {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+#menu a:nth-child(2) {
+  padding-left: 25px;
 }
 
 #navbar a {
-  color: #FFF;
-  display: grid;
-  font-size: 1.2rem;
+  color: #F5F5F5;
+  font-size: 1rem;
+  font-weight: 300;
   text-decoration: none;
-}
-
-#about a {
-  padding-right: 15px;
-  padding-top: 15px;
-}
-
-#work a {
-  padding-right: 15px;
-  padding-top: 15px;
 }
 
 #navbar a:hover, #navbar a:active {
@@ -61,51 +62,55 @@ img {
 /*--- Section: Overview ---*/
 #overview {
   background-color: #0E1111;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #overview h2 {
-  color: #FFF;
+  color: #F5F5F5;
   font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #overview-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #overview-container h2 {
-  color: #FFF;
-  font-size: 1.4rem;
+  color: #F5F5F5;
+  font-size: 1.6rem;
+  font-weight: 300;
   text-align: center;
 }
 
 #overview-container p {
-  color: #FFF;
+  color: #F5F5F5;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 #overview-desktop {
-  margin: auto;
+  margin: 10px;
   padding: 10px;
 }
 
 #overview-mobile {
-  margin: auto;
+  margin: 10px;
   padding: 10px;
 }
 
 .btn-desktop {
   background: #0E1111;
-  border: 1.5px solid #FFF;
-  color: #FFF;
+  border: 1.5px solid #F5F5F5;
+  color: #F5F5F5;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
-  margin-top: 10px;
+  font-weight: 100;
+  margin: auto;
   padding: 10px;
-  text-decoration: none;
   width: 100%;
 }
 
@@ -117,14 +122,14 @@ img {
 
 .btn-mobile {
   background: #0E1111;
-  border: 1.5px solid #FFF;
-  color: #FFF;
+  border: 1.5px solid #F5F5F5;
+  color: #F5F5F5;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
-  margin-top: 10px;
+  font-weight: 100;
+  margin: auto;
   padding: 10px;
-  text-decoration: none;
   width: 100%;
 }
 
@@ -137,77 +142,89 @@ img {
 /*--- Section: Problem ---*/
 #problem {
   background-color: #FFF;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #problem-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #problem-container .problem-content h2 {
   color: #0E1111;
-  font-size: 1.4rem;
-  margin-top: auto;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #problem-container .problem-content p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 /*--- Section: Solution ---*/
 #solution {
   background-color: #01B5CC;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #solution-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #solution .solution-content h2 {
   color: #FFF;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #solution-container .solution-content p {
   color: #FFF;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 /*--- Section: UX Design Process ---*/
 #ux-design {
   background-color: #FFF;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #ux-design h2 {
   color: #0E1111;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1;
   text-align: center;
 }
 
 #ux-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #ux-container .ux-content-1 {
+  padding-bottom: 20px;
   text-align: center;
 }
 
 #ux-container .ux-content-1 h2 {
   color: #0E1111;
   font-size: 1.4rem;
+  font-weight: 300;
 }
 
 #ux-container .ux-content-1 p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
+  line-height: 1;
 }
 
 #ux-container .ux-content-1 span {
@@ -222,17 +239,21 @@ img {
 }
 
 #ux-container .ux-content-2 {
+  padding-bottom: 20px;
   text-align: center;
 }
 
 #ux-container .ux-content-2 h2 {
   color: #0E1111;
   font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1;
 }
 
 #ux-container .ux-content-2 p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
 }
 
 #ux-container .ux-content-2 span {
@@ -247,17 +268,21 @@ img {
 }
 
 #ux-container .ux-content-3 {
+  padding-bottom: 20px;
   text-align: center;
 }
 
 #ux-container .ux-content-3 h2 {
   color: #0E1111;
   font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1;
 }
 
 #ux-container .ux-content-3 p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
 }
 
 #ux-container .ux-content-3 span {
@@ -272,17 +297,21 @@ img {
 }
 
 #ux-container .ux-content-4 {
+  padding-bottom: 20px;
   text-align: center;
 }
 
 #ux-container .ux-content-4 h2 {
   color: #0E1111;
   font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1;
 }
 
 #ux-container .ux-content-4 p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
 }
 
 #ux-container .ux-content-4 span {
@@ -297,17 +326,21 @@ img {
 }
 
 #ux-container .ux-content-5 {
+  padding-bottom: 20px;
   text-align: center;
 }
 
 #ux-container .ux-content-5 h2 {
   color: #0E1111;
   font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1;
 }
 
 #ux-container .ux-content-5 p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
 }
 
 #ux-container .ux-content-5 span {
@@ -324,52 +357,58 @@ img {
 /*--- Section: Market Research ---*/
 #research {
   background-color: #0E1111;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
-#research-container .research-content {
-  margin: 10px;
-  padding: 10px;
+#research-container {
+  margin: auto;
+  padding: 20px;
 }
 
 #research-container .research-content h2 {
-  color: #FFF;
-  font-size: 1.4rem;
-  margin-top: auto;
+  color: #F5F5F5;
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-align: center;
 }
 
 #research-container .research-content p {
-  color: #FFF;
+  color: #F5F5F5;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 /*--- Section: Competitive Analysis ---*/
 #analysis {
   background-color: #FFF;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #analysis-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #analysis-container .analysis-content h2 {
   color: #0E1111;
-  font-size: 1.4rem;
-  margin-top: auto;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #analysis-container .analysis-content p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 #analysis-container .analysis-content ul {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
@@ -395,10 +434,9 @@ width: 33.3%;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
-  margin-bottom: 15px;
-  margin-top: 10px;
+  font-weight: 100;
+  margin-top: 20px;
   padding: 10px;
-  text-decoration: none;
   width: 100%;
 }
 
@@ -411,28 +449,32 @@ width: 33.3%;
 /*--- Section: User Surveys ---*/
 #surveys {
   background-color: #F2F2F2;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #survey-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #survey-container .survey-content h2 {
   color: #0E1111;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #survey-container .survey-content p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 #survey-container .survey-content ul {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
@@ -459,10 +501,10 @@ width: 33.3%;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
+  font-weight: 300;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 10px;
-  text-decoration: none;
   width: 100%;
 }
 
@@ -475,20 +517,23 @@ width: 33.3%;
 /*--- Section: Data Analysis ---*/
 #data-analysis {
   background-color: #0E1111;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #data-analysis h2 {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #data-analysis h3 {
-  font: 1.4rem;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 #data-container .data-content-1 {
   margin: auto;
-  padding: auto;
+  padding: 10px;
 }
 
 #analysis-graph img {
@@ -501,9 +546,7 @@ width: 33.3%;
 
 #pie-graph-bullets img {
   display: block;
-  padding-left: auto;
-  margin-top: 35px;
-  width: 45%;
+  width: 50%;
 }
 
 #data-container .data-content-2 {
@@ -519,6 +562,7 @@ width: 33.3%;
 
 #data-container .data-content-3 h2 {
   font-size: 1.2rem;
+  font-weight: 300;
 }
 
 #valued-features-graph img {
@@ -537,6 +581,7 @@ width: 33.3%;
 
 #data-container .data-content-4 h2 {
   font-size: 1.2rem;
+  font-weight: 300;
 }
 
 #data-container .data-content-4 h2 span {
@@ -545,44 +590,50 @@ width: 33.3%;
 
 #data-container .data-content-4 p {
   font-size: 1rem;
+  font-weight: 300;
 }
 
 /*--- Section: Key Insights ---*/
 #key-insights {
   background-color: #01B5CC;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #insights-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #insights-container .insights-content h2 {
-  color: #FFF;
-  font-size: 1.4rem;
+  color: #F5F5F5;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #insights-container .insights-content p {
-  color: #FFF;
+  color: #F5F5F5;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 /*--- Section: User Personas ---*/
 #user-personas {
   background-color: #FFF;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #user-personas h2 {
   color: #0E1111;
-  font-size: 1.4rem;
-  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: left;
 }
 
 #personas-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
   text-align: left;
 }
@@ -590,11 +641,13 @@ width: 33.3%;
 #personas-container .personas-content h2 {
   color: #0E1111;
   font-size: 1.4rem;
+  font-weight: 300;
 }
 
 #personas-container .personas-content p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
 }
 
 .persona-1 {
@@ -607,19 +660,23 @@ width: 33.3%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 18px;
-  width: 55%;
+  padding-top: 20px;
+  width: 200px;
 }
 
 .persona-1 #persona-intro h2 {
   color: #0E1111;
   font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1;
   text-align: center;
 }
 
 .persona-1 #persona-intro p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
+  line-height: 1;
   text-align: center;
 }
 
@@ -632,16 +689,19 @@ width: 33.3%;
 .persona-1-content h2 {
   color: #0E1111;
   font-size: 1.4rem;
+  font-weight: 300;
 }
 
 .persona-1-content p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
 }
 
 .persona-1-content ul {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
 }
 
 .persona-2 {
@@ -654,19 +714,23 @@ width: 33.3%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10px;
-  width: 60%;
+  padding-top: 20px;
+  width: 200px;
 }
 
 .persona-2 #persona-intro h2 {
   color: #0E1111;
   font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1;
   text-align: center;
 }
 
 .persona-2 #persona-intro p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
+  line-height: 1;
   text-align: center;
 }
 
@@ -679,43 +743,50 @@ width: 33.3%;
 .persona-2-content h2 {
   color: #0E1111;
   font-size: 1.4rem;
+  font-weight: 300;
 }
 
 .persona-2-content p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
 }
 
 .persona-2-content ul {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
 }
 
 /*--- Section: User Stories ---*/
 #user-stories {
   background-color: #F0F0F0;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #stories-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #stories-container h2 {
   color: #0E1111;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #stories-container p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 #stories-container ul {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
@@ -777,10 +848,10 @@ width: 33.3%;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
+  font-weight: 300;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 10px;
-  text-decoration: none;
   width: 100%;
 }
 
@@ -793,28 +864,35 @@ width: 33.3%;
 /*--- Section: User Flows ---*/
 #user-flows {
   background-color: #0E1111;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #flows-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
+.flows-content {
+  padding-bottom: 20px;
+}
+
 #flows-container h2 {
-  color: #FFF;
-  font-size: 1.4rem;
+  color: #F5F5F5;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #flows-container p {
-  color: #FFF;
+  color: #F5F5F5;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 #user-flows-1 {
-  margin: 10px;
-  padding: 10px;
+  margin: auto;
+  padding-bottom: 25px;
 }
 
 #user-flows-1 img {
@@ -825,8 +903,8 @@ width: 33.3%;
 }
 
 #user-flows-2 {
-  margin: 10px;
-  padding: 10px;
+  margin: auto;
+  padding-bottom: 10px;
 }
 
 #user-flows-2 img {
@@ -843,15 +921,15 @@ width: 33.3%;
 
 .btn-userflows {
   background: #0E1111;
-  border: 1.5px solid #FFF;
-  color: #FFF;
+  border: 1.5px solid #F5F5F5;
+  color: #F5F5F5;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
+  font-weight: 100;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 10px;
-  text-decoration: none;
   width: 100%;
 }
 
@@ -864,22 +942,25 @@ width: 33.3%;
 /*--- Section: Wireframes & Prototype ---*/
 #wireframes-prototype {
   background-color: #01B5CC;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #wireframes-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #wireframes-container h2 {
-  color: #FFF;
-  font-size: 1.4rem;
+  color: #F5F5F5;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #wireframes-container p {
-  color: #FFF;
+  color: #F5F5F5;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
@@ -914,56 +995,65 @@ width: 33.3%;
 
 .btn-lofi {
   background: #01B5CC;
-  border: 1.5px solid #FFF;
-  color: #FFF;
+  border: 1.5px solid #F5F5F5;
+  color: #F5F5F5;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
+  font-weight: 100;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 10px;
-  text-decoration: none;
   width: 100%;
 }
 
 .btn-lofi:hover, .btn-lofi:active {
-  border-color: #D3D3D3;
-  color: #D3D3D3;
+  border-color: #0E1111;
+  color: #0E1111;
   transition: 0.4s;
 }
 
 /*--- Section: LoFi Testing ---*/
 #lofi-testing {
   background-color: #0E1111;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #testing-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #testing-container h2 {
-  color: #FFF;
-  font-size: 1.4rem;
+  color: #F5F5F5;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #testing-container p {
-  color: #FFF;
+  color: #F5F5F5;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 #testing-container ul {
-  color: #FFF;
+  color: #F5F5F5;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
+}
+
+#testing-images {
+  padding-bottom: 50px;
 }
 
 /*--- Section: Branding & Logo ---*/
 #branding-logo-1 {
   background-color: #F8F8F5;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #branding-logo-2 {
@@ -972,85 +1062,124 @@ width: 33.3%;
 }
 
 #logo-container-1 {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #logo-container-2 {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
+}
+
+#logo-final {
+  padding-bottom: 50px;
+  padding-top: 25px;
 }
 
 #logo-container-1 h2 {
   color: #0E1111;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #logo-container-1 p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 #logo-container-2 h2 {
   color: #0E1111;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #logo-container-2 p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 /*--- Section: Typography ---*/
 #typography {
   background-color: #01B5CC;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #typography-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #typography-container h2 {
   color: #FFF;
   font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1;
+  text-align: left;
 }
 
 #typography-container p {
   color: #FFF;
   font-size: 1rem;
+  font-weight: 300;
+  padding-bottom: 25px;
   text-align: left;
+}
+
+#typography-container .typography-content-1 h2 {
+  color: #FFF;
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+#brand-typeface {
+  padding-bottom: 25px;
+}
+
+#complimentary-typeface {
+  padding-bottom: 50px;
 }
 
 /*--- Section: Colors ---*/
 #colors {
   background: #FFF;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #colors-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #colors-container h2 {
   color: #0E1111;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #colors-container p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 #colors-container ul {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
+}
+
+#color-palette {
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 #style-guide {
@@ -1065,10 +1194,10 @@ width: 33.3%;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
+  font-weight: 100;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 10px;
-  text-decoration: none;
   width: 100%;
 }
 
@@ -1081,32 +1210,36 @@ width: 33.3%;
 /*--- Section: HiFi Prototype ---*/
 #hifi-prototype-1 {
   background-color: #F0F0F0;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #hifi-container-1 {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #preference-testing-1 {
   margin: auto;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 #preference-testing-2 {
   margin: auto;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
 }
 
 #hifi-container-1 h2 {
   color: #0E1111;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #hifi-container-1 p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
@@ -1127,10 +1260,10 @@ width: 33.3%;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
+  font-weight: 100;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 10px;
-  text-decoration: none;
   width: 100%;
 }
 
@@ -1147,10 +1280,10 @@ width: 33.3%;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
+  font-weight: 100;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 10px;
-  text-decoration: none;
   width: 100%;
 }
 
@@ -1163,99 +1296,116 @@ width: 33.3%;
 /*--- Section: Hi-Fi Testing ---*/
 #hifi-testing {
   background-color: #01B5CC;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #hifi-container-2 {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #hifi-refinement-1 {
-  margin: auto;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 #hifi-refinement-2 {
-  margin: auto;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
 }
 
 #hifi-container-2 h2 {
   color: #FFF;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #hifi-container-2 p {
   color: #FFF;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 #hifi-container-2 ul {
   color: #FFF;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
+}
+
+.hifi-content-3 {
+  padding-bottom: 25px;
 }
 
 /*--- Section: Conclusion ---*/
 #conclusion {
   background-color: #FFF;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #conclusion-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
 #conclusion-container h2 {
   color: #0E1111;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 #conclusion-container h3 {
   color: #0E1111;
   font-size: 1.2rem;
+  font-weight: 300;
   text-align: left;
 }
 
 #conclusion-container p {
   color: #0E1111;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 /*--- Section: Footer ---*/
 #footer {
   background-color: #0E1111;
+  margin: auto;
+  padding: 20px;
+}
+
+#footer-container {
+  margin: auto;
   padding: 10px;
 }
 
-.footer-container {
-  margin: 10px;
-  padding: 10px;
-}
-
-#footer h2 {
-  color: #FFF;
-  font-size: 1.2rem;
-  margin-top: auto;
+#footer-container h2 {
+  color: #F5F5F5;
+  font-size: 1.4rem;
+  font-weight: 300;
+  padding-bottom: 10px;
   text-align: center;
 }
 
-#footer p {
-  color: #FFF;
+#footer-container p {
+  color: #F5F5F5;
   font-size: 1rem;
+  font-weight: 300;
+  padding: 10px;
   text-align: center;
 }
 
 .icons-footer {
   font-size: .7rem;
+  margin: 10px;
+  padding: 10px;
 }
 
 .icons-footer a {
-  color: #FFF;
+  color: #F5F5F5;
   padding: 10px;
 }
 
@@ -1275,27 +1425,109 @@ width: 33.3%;
 }
 
 /*--- Media Queries ---*/
-@media(min-width: 700px) {
-
+@media(min-width: 500px) {
   /*--- Section: Navbar ---*/
-  #navbar .content-container {
-    padding: 35px;
-  }
-
-  #about a {
-    font-size: 1.4rem;
-  }
-
-  #work a {
-    font-size: 1.4rem;
+  #logo {
+    padding: 10px 15px;
   }
 
   #logo img {
-    display: block;
-    margin-bottom: 15px;
-    margin-left: 25px;
-    padding-bottom: 25px;
-    width: 7%;
+    width: 75px;
+  }
+
+  #navbar a {
+    font-size: 1.2rem;
+  }
+
+  #menu {
+    margin-right: 25px;
+    text-align: right;
+  }
+
+  #menu a:nth-child(2) {
+    padding-left: 35px;
+  }
+
+  /*--- Section: Header ---*/
+  #overview-container .overview-content {
+    padding: 10px 25px;
+  }
+
+  #overview-container .overview-content h2 {
+    font-size: 1.8rem;
+  }
+
+  #overview-container .overview-content p {
+    font-size: 1.2rem;
+  }
+
+  #overview-desktop {
+    margin: auto;
+    padding: 25px;
+    width: 65%;
+  }
+
+  .btn-desktop {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 15px;
+  }
+
+  #overview-mobile {
+    margin: auto;
+    padding: 25px;
+    width: 65%;
+  }
+
+  .btn-mobile {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 15px;
+  }
+
+  /*--- Section: Problem ---*/
+  #problem-container .problem-content {
+    padding: 10px 25px;
+  }
+
+  #problem-container .problem-content h2 {
+    font-size: 1.8rem;
+  }
+
+  #problem-container .problem-content p {
+    font-size: 1.2rem;
+  }
+
+  /*--- Section: Solution ---*/
+  #solution-container .solution-content {
+    padding: 10px 25px;
+  }
+
+  #solution-container .solution-content h2 {
+    font-size: 1.8rem;
+  }
+
+  #solution-container .solution-content p {
+    font-size: 1.2rem;
+  }
+
+  #solution-container #solution-image {
+    margin: auto;
+    padding: 10px;
+    width: 80%; 
+  }
+
+}
+
+@media(min-width: 800px) {
+
+  /*--- Section: Navbar ---*/
+  #logo img {
+    width: 100px;
+  }
+
+  #navbar a {
+    font-size: 1.4rem;
   }
 
   /*--- Section: Overview ---*/
@@ -1539,14 +1771,15 @@ width: 33.3%;
 
   #survey-image {
     grid-column: 3/span 4;
+    justify-self: center;
     margin-bottom: auto;
-    margin-top: 10px;
+    margin: 10px;
     padding: 10px 50px;
-    width: 100%;
+    width: 80%;
   }
 
   #view-user-survey {
-    grid-column: 2/span 2;
+    grid-column: 1/span 2;
     justify-self: center;
     margin: 10px;
     padding: 10px;
@@ -1557,8 +1790,8 @@ width: 33.3%;
   #data-container {
     align-items: center;
     display: grid;
-    grid-gap: 35px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto;
     padding: 10px 50px;
   }
@@ -1579,16 +1812,15 @@ width: 33.3%;
     text-align: center;
   }
 
-  .data-content-1 {
-    grid-column: 1/span 2;
+  #data-container .data-content-1 {
   }
 
-  #analysis-graph img {
+  #data-container #analysis-graph {
+    grid-column: 2/4;
+  }
+
+  #data-container #analysis-graph img {
     width: 75%;
-  }
-
-  .data-content-2 {
-    grid-column: 3/span 4;
   }
 
   #pie-graph-bullets img {
@@ -1643,27 +1875,21 @@ width: 33.3%;
   /*--- Section: User Personas ---*/
   #personas-container {
     display: grid;
-    grid-gap: 25px;
+    grid-gap: 10px;
     grid-template-columns: repeat(6, 1fr);
-    padding: 10px 50px;
+    padding: 10px;
   }
 
-  #personas-container .personas-content {
-    grid-column: 2/span 5;
+  #personas-container h2 {
+    grid-column: 2/span 4;
     margin: auto;
     padding: 10px;
   }
 
-  #user-personas h2 {
-    font-size: 1.8rem;
-  }
-
-  #personas-container .personas-content h2 {
-    font-size: 1.8rem;
-  }
-
-  #personas-container .personas-content p {
-    font-size: 1.2rem;
+  #personas-container .personas-content {
+    grid-column: 2/span 4;
+    margin: auto;
+    padding: 10px;
   }
 
   .persona-1 {
@@ -1676,6 +1902,27 @@ width: 33.3%;
     grid-column: 4/span 6;
     margin: 10px;
     padding: 10px;
+  }
+
+  #user-personas h2 {
+    font-size: 1.8rem;
+    padding-top: 10px;
+  }
+
+  #personas-container .personas-content h2 {
+    font-size: 1.8rem;
+  }
+
+  #personas-container .personas-content p {
+    font-size: 1.2rem;
+  }
+
+  #personas-container .persona-1-content h2 {
+    text-align: left;
+  }
+
+  #personas-container .persona-2-content h2 {
+    text-align: left;
   }
 
   /*--- Section: User Stories ---*/
@@ -1828,13 +2075,14 @@ width: 33.3%;
   }
 
   #testing-images img {
-    width: 90%;
+    padding-left: 75px;
+    width: 85%;
   }
 
   #testing-container #testing-images {
     grid-column: 3/span 4;
     justify-self: center;
-    margin: 50px;
+    margin: 25px;
     padding: 50px;
   }
 
