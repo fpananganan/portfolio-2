@@ -364,6 +364,10 @@ main {
     width: 100px;
   }
 
+  #navbar a {
+    font-size: 1.4rem;
+  }
+
   /*--- Section: Introduction ---*/
   #introduction-container .content {
     grid-column: 2/span 4;

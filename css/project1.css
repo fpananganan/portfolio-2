@@ -806,6 +806,10 @@ width: 33.3%;
   width: 100%;
 }
 
+.new-user-content tbody tr:nth-of-type(2n+1) {
+  background: #F0F0F0;
+}
+
 .new-user-content thead {
   font-family: 'Roboto', Sans-Serif;
   font-size: 1rem;
@@ -2047,6 +2051,15 @@ width: 33.3%;
 
 @media(min-width: 800px) {
   /*--- Section: Navbar ---*/
+  #logo img {
+    width: 100px;
+  }
+
+  #navbar a {
+    font-size: 1.4rem; 
+  }
+
+  /*--- Section: Overview ---*/
   #overview h2 {
     font-size: 3rem;
   }
@@ -2065,6 +2078,7 @@ width: 33.3%;
 
   #overview-container .overview-content {
     grid-column: 4/span 6;
+    margin-top: 65px;
   }
 
   #overview-desktop {
@@ -2107,6 +2121,7 @@ width: 33.3%;
 
   .solution-content {
     grid-column: 1/span 2;
+    margin-top: 50px;
   }
 
   #solution-container #solution-image {
@@ -2286,6 +2301,35 @@ width: 33.3%;
   }
 
   /*--- Section: Data Analysis ---*/
+  #data-container .data-content-1 {
+    width: 65%;
+  }
+
+  #data-container .data-content-2 {
+    margin-left: 250px;
+    padding: 15px 25px;
+    width: 65%;
+  }
+
+  #data-container .data-content-3 {
+    margin-left: 250px;
+    margin-top: 75px;
+    padding: 10px 25px;
+    width: 65%;
+  }
+
+  #data-container .data-content-3 h2 {
+    font-size: 1.8rem;
+  }
+
+  #data-container .data-content-4 h2 {
+    font-size: 2.5rem;
+  }
+
+  #data-container .data-content-4 p {
+    font-size: 1.4rem;
+  }
+
   #data-analysis h2 {
     font-size: 2rem;
   }
@@ -2327,19 +2371,27 @@ width: 33.3%;
   #personas-container h2 {
     grid-column: 2/span 4;
     margin: auto;
-    padding: 10px;
   }
 
   #personas-container .personas-content {
     grid-column: 2/span 4;
     margin: auto;
-    padding: 10px;
+    padding-top: 25px;
+  }
+
+  #user-personas img {
+    max-width: 300px;
   }
 
   .persona-1 {
     grid-column: 1/span 3;
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
+  }
+
+  .persona-1 #persona-intro h2 {
+    font-size: 2rem;
+    margin-top: 25px;
   }
 
   .persona-2 {
@@ -2348,8 +2400,13 @@ width: 33.3%;
     padding: 10px;
   }
 
-  #user-personas h2 {
+  .persona-2 #persona-intro h2 {
     font-size: 2rem;
+    margin-top: 25px;
+  }
+
+  #user-personas h2 {
+    font-size: 1.6rem;
   }
 
   #personas-container .personas-content h2 {
@@ -2361,11 +2418,29 @@ width: 33.3%;
   }
 
   #personas-container .persona-1-content h2 {
+    font-size: 1.6rem;
     text-align: left;
   }
 
+  #personas-container .persona-1-content #quote {
+    color: #01B5CC;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 50px;
+    text-align: center;
+  }
+
   #personas-container .persona-2-content h2 {
+    font-size: 1.6rem;
     text-align: left;
+  }
+
+  #personas-container .persona-2-content #quote {
+    color: #01B5CC;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 25px;
+    text-align: center;
   }
 
   /*--- Section: User Stories ---*/
@@ -2595,6 +2670,7 @@ width: 33.3%;
   }
 
   #logo-final img {
+    padding-bottom: 50px;
     padding-left: 50px;
     padding-top: 10px;
     width: 85%;
@@ -2757,7 +2833,7 @@ width: 33.3%;
   #hifi-container-2 .hifi-content-3 {
     grid-column: 2/span 4;
     margin: auto;
-    padding: 10px;
+    padding-bottom: 50px;
   }
 
   #hifi-refinement-1 {

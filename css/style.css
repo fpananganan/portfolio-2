@@ -227,7 +227,7 @@ img {
   #menu a:nth-child(2) {
     padding-left: 35px;
   }
-  
+
   /*--- Section: Header --- */
   #header-container {
     display: grid;
@@ -345,6 +345,7 @@ img {
   }
 
   #projects-image img {
+    padding-left: 50px; 
     width: 85%;
   }
 
