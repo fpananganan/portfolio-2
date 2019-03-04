@@ -1514,84 +1514,583 @@ width: 33.3%;
   #solution-container #solution-image {
     margin: auto;
     padding: 10px;
-    width: 80%; 
+    width: 80%;
   }
 
-}
+  /*--- Section: UX Design Process ---*/
+  #ux-design h2 {
+    font-size: 2rem;
+  }
 
-@media(min-width: 800px) {
+  #ux-container .ux-content-1 {
+    padding: 10px 25px;
+  }
 
-  /*--- Section: Navbar ---*/
-  #logo img {
+  #ux-container .ux-content-1 h2 {
+    font-size: 1.6rem;
+  }
+
+  #ux-container .ux-content-1 p {
+    font-size: 1.2rem;
+  }
+
+  #ux-container #ux-image-1 {
     width: 100px;
   }
 
-  #navbar a {
+  #ux-container .ux-content-2 {
+    padding: 10px 25px;
+  }
+
+  #ux-container .ux-content-2 h2 {
+    font-size: 1.6rem;
+  }
+
+  #ux-container .ux-content-2 p {
+    font-size: 1.2rem;
+  }
+
+  #ux-container #ux-image-2 {
+    width: 100px;
+  }
+
+  #ux-container .ux-content-3 {
+    padding: 10px 25px;
+  }
+
+  #ux-container .ux-content-3 h2 {
+    font-size: 1.6rem;
+  }
+
+  #ux-container .ux-content-3 p {
+    font-size: 1.2rem;
+  }
+
+  #ux-container #ux-image-3 {
+    width: 100px;
+  }
+
+  #ux-container .ux-content-4 {
+    padding: 10px 25px;
+  }
+
+  #ux-container .ux-content-4 h2 {
+    font-size: 1.6rem;
+  }
+
+  #ux-container .ux-content-4 p {
+    font-size: 1.2rem;
+  }
+
+  #ux-container #ux-image-4 {
+    width: 100px;
+  }
+
+  #ux-container .ux-content-5 {
+    padding: 10px 25px;
+  }
+
+  #ux-container .ux-content-5 h2 {
+    font-size: 1.6rem;
+  }
+
+  #ux-container .ux-content-5 p {
+    font-size: 1.2rem;
+  }
+
+  #ux-container #ux-image-5 {
+    width: 100px;
+    padding-bottom: 25px;
+  }
+
+  /*--- Section: Market Research ---*/
+  #research-container .research-content {
+    padding: 10px 25px;
+  }
+
+  #research-container .research-content h2 {
+    font-size: 2rem;
+  }
+
+  #research-container .research-content p {
+    font-size: 1.2rem;
+  }
+
+  /*--- Section: Competitive Analysis ---*/
+  #analysis-container .analysis-content {
+    padding: 10px 25px;
+  }
+
+  #analysis-container .analysis-content h2 {
+    font-size: 2rem;
+  }
+
+  #analysis-container .analysis-content p {
+    font-size: 1.2rem;
+  }
+
+  #analysis-container .analysis-content ul {
+    font-size: 1.2rem;
+  }
+
+  #competitive-analysis-social-icons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+  }
+
+  #view-swot-analysis {
+    margin: auto;
+    padding: 25px;
+    width: 65%;
+  }
+
+  .btn-swotanalysis {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 15px;
+  }
+
+  /*--- Section: User Surveys ---*/
+  #survey-container .survey-content {
+    padding: 10px 25px;
+  }
+
+  #survey-container .survey-content h2 {
+    font-size: 2rem;
+  }
+
+  #survey-container .survey-content p {
+    font-size: 1.2rem;
+  }
+
+  #survey-container .survey-content ul {
+    font-size: 1.2rem;
+  }
+
+  #survey-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+  #view-user-survey {
+    margin: auto;
+    padding: 25px;
+    width: 65%;
+  }
+
+  .btn-usersurvey {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 15px;
+  }
+
+  /*--- Section: Data Analysis ---*/
+  #data-analysis h2 {
+    font-size: 2rem;
+  }
+
+  #data-analysis h3 {
     font-size: 1.4rem;
   }
 
-  /*--- Section: Overview ---*/
+  #data-container .data-content-1 {
+    padding: 10px 25px;
+  }
+
+  #data-container #analysis-graph {
+    margin-left: 115px;
+    width: 80%;
+  }
+
+  #data-container .data-content-2 {
+    padding: 10px 25px;
+  }
+
+  #data-container #pie-graph-bullets {
+    margin-left: 25px;
+    width: 75%;
+  }
+
+  #data-container .data-content-3 {
+    margin-top: 50px;
+    padding: 10px 25px;
+  }
+
+  #data-container #valued-features-graph {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  #data-container .data-content-3 h2 {
+    font-size: 1.4rem;
+  }
+
+  #data-container .data-content-4 {
+    margin-top: 50px;
+    padding: 10px 25px;
+  }
+
+  #data-container .data-content-4 h2 {
+    font-size: 1.8rem;
+  }
+
+  #data-container .data-content-4 p {
+    font-size: 1.2rem;
+  }
+
+  /*--- Section: Key Insights ---*/
+  #insights-container .insights-content {
+    padding: 10px 25px;
+  }
+
+  #insights-container .insights-content h2 {
+    font-size: 2rem;
+  }
+
+  #insights-container .insights-content p {
+    font-size: 1.2rem;
+  }
+
+  /*--- Section: User Personas ---*/
+  #user-personas h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #personas-container .personas-content {
+    padding: 10px 25px;
+  }
+
+  /*--- Section: User Stories ---*/
+  #stories-container .stories-content {
+    padding: 10px 25px;
+  }
+
+  #stories-container .stories-content h2 {
+    font-size: 2rem;
+  }
+
+  #stories-container .stories-content p {
+    font-size: 1.2rem;
+  }
+
+  #stories-container .stories-content ul {
+    font-size: 1.2rem;
+  }
+
+  #user-stories-table {
+    padding-left: 45px;
+  }
+
+  #view-user-stories {
+    margin: auto;
+    padding: 25px;
+    width: 65%;
+  }
+
+  #view-user-stories .btn-userstories {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 15px;
+  }
+
+  /*--- Section: User Flows ---*/
+  #flows-container .flows-content {
+    padding: 10px 25px;
+  }
+
+  #flows-container .flows-content h2 {
+    font-size: 2rem;
+  }
+
+  #flows-container .flows-content p {
+    font-size: 1.2rem;
+  }
+
+  #user-flows-1 {
+    padding-right: 20px;
+    width: 90%;
+  }
+
+  #user-flows-2 {
+    padding-right: 18px;
+    width: 90%;
+  }
+
+  #view-user-flows {
+    margin: auto;
+    padding: 25px;
+    width: 65%;
+  }
+
+  .btn-userflows {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 15px;
+  }
+
+  /*--- Section: Wireframes & Prototype ---*/
+  #wireframes-container {
+    padding: 10px 25px;
+  }
+
+  #wireframes-container .prototype-content h2 {
+    font-size: 2rem;
+  }
+
+  #wireframes-container .prototype-content p {
+    font-size: 1.2rem;
+  }
+
+  #view-lofi-prototype {
+    margin: auto;
+    padding: 25px;
+    width: 65%;
+  }
+
+  .btn-lofi {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 15px;
+  }
+
+  /*--- Section: LoFi Testing ---*/
+  #testing-container {
+    padding: 10px 25px;
+  }
+
+  #testing-container .testing-content h2 {
+    font-size: 2rem;
+  }
+
+  #testing-container .testing-content p {
+    font-size: 1.2rem;
+  }
+
+  #testing-container .testing-content ul {
+    font-size: 1.2rem;
+  }
+
+  /*--- Section: Branding & Logo 1 ---*/
+  #logo-container-1 {
+    padding: 10px 25px;
+  }
+
+  #logo-container-1 .logo-content-1 h2 {
+    font-size: 2rem;
+  }
+
+  #logo-container-1 .logo-content-1 p {
+    font-size: 1.2rem;
+  }
+
+  /*--- Section: Branding & Logo 2 ---*/
+  #logo-container-2 {
+    padding: 10px 25px;
+  }
+
+  #logo-container-2 .logo-content-2 h2 {
+    font-size: 2rem;
+  }
+
+  #logo-container-2 .logo-content-2 p {
+    font-size: 1.2rem;
+  }
+
+  /*--- Section: Typography ---*/
+  #typography-container {
+    padding: 10px 25px;
+  }
+
+  #typography-container .typography-content-1 h2 {
+    font-size: 2rem;
+  }
+
+  #typography-container p {
+    font-size: 1.2rem;
+  }
+
+  /*--- Section: Colors ---*/
+  #colors-container {
+    padding: 10px 25px;
+  }
+
+  #colors-container .colors-content-1 h2 {
+    font-size: 2rem;
+  }
+
+  #colors-container .colors-content-1 p {
+    font-size: 1.2rem;
+  }
+
+  #colors-container .colors-content-1 ul {
+    font-size: 1.2rem;
+  }
+
+  #style-guide {
+    margin: auto;
+    padding: 25px;
+    width: 65%;
+  }
+
+  .btn-styleguide {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 15px;
+  }
+
+  /*--- Section: HiFi Prototype 1 ---*/
+  #hifi-container-1 {
+    padding: 10px 25px;
+  }
+
+  #hifi-container-1 .hifi-content-1 h2 {
+    font-size: 2rem;
+  }
+
+  #hifi-container-1 .hifi-content-1 p {
+    font-size: 1.2rem;
+  }
+
+  #desktop-prototype {
+    margin: auto;
+    padding: 25px;
+    width: 65%;
+  }
+
+  .btn-desktop-2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 15px;
+  }
+
+  #mobile-prototype {
+    margin: auto;
+    padding: 0px 25px;
+    width: 65%;
+  }
+
+  .btn-mobile-2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 15px;
+  }
+
+  /*--- Section: HiFi Testing ---*/
+  #hifi-container-2 {
+    padding: 10px 25px;
+  }
+
+  #hifi-container-2 p {
+    font-size: 1.2rem;
+  }
+
+  #hifi-container-2 .hifi-content-2 h2 {
+    font-size: 2rem;
+  }
+
+  #hifi-container-2 .hifi-content-2 p {
+    font-size: 1.2rem;
+  }
+
+  #hifi-container-2 .hifi-content-2 ul {
+    font-size: 1.2rem;
+  }
+
+  /*--- Section: Conclusion ---*/
+  #conclusion-container {
+    padding: 10px 25px;
+  }
+
+  #conclusion-container .conclusion-content h2 {
+    font-size: 2rem;
+  }
+
+  #conclusion-container .conclusion-content h3 {
+    font-size: 1.6rem;
+  }
+
+  #conclusion-container .conclusion-content p {
+    font-size: 1.2rem;
+  }
+
+  /*--- Section: Footer ---*/
+  #footer-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 10px 25px;
+  }
+
+  #footer-container .footer-content {
+    grid-column: 1/span 6;
+  }
+
+  #footer-container .footer-content h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  #footer-container .footer-content p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  #footer .copy {
+    font-size: 1rem;
+  }
+}
+
+@media(min-width: 800px) {
+  /*--- Section: Navbar ---*/
+  #overview h2 {
+    font-size: 3rem;
+  }
+
   #overview-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+    grid-template-columns: repeat(6, 1fr);
     padding: 10px 50px;
   }
 
   #overview-container #overview-image {
-    grid-column: 1/span 2;
-    margin-top: 65px;
-    padding: 25px 50px;
+    grid-column: 1/span 3;
+    padding-top: 95px;
   }
 
   #overview-container .overview-content {
-    grid-column: 3/span 4;
-    margin: auto;
-    padding: 10px 50px;
-  }
-
-  #overview h2 {
-    font-size: 2rem;
-  }
-
-  #overview-container h2 {
-    font-size: 1.8rem;
-  }
-
-  #overview-container p {
-    font-size: 1.2rem;
+    grid-column: 4/span 6;
   }
 
   #overview-desktop {
-    grid-column: 1/span 2;
-    justify-self: center;
-    margin: 10px;
-    padding: 10px;
-    width: 65%;
+    grid-column: 1/span 3;
+    width: 75%;
   }
 
   #overview-mobile {
-    grid-column: 3/span 4;
-    justify-self: center;
-    margin: 10px;
-    padding: 10px;
-    width: 65%;
+    grid-column: 4/span 6;
   }
 
   /*--- Section: Problem ---*/
   #problem-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px 50px;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 50px;
   }
 
   .problem-content {
-    grid-column: 2/span 2;
+    grid-column: 2/span 4;
     margin: auto;
     padding: 10px;
   }
 
   #problem-container .problem-content h2 {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
   }
 
   #problem-container .problem-content p {
@@ -1601,26 +2100,23 @@ width: 33.3%;
   /*--- Section: Solution ---*/
   #solution-container {
     display: grid;
-    grid-gap: 25px;
+    grid-gap: 20px;
     grid-template-columns: repeat(4, 1fr);
-    padding: 0px 50px;
+    padding: 10px 50px;
   }
 
   .solution-content {
     grid-column: 1/span 2;
   }
 
-  #solution-image {
+  #solution-container #solution-image {
     grid-column: 3/span 4;
-    margin-bottom: auto;
-    margin-top: 10px;
-    padding: 10px 50px;
-    width: 100%;
+    padding-top: 75px;
   }
 
   #solution-container .solution-content h2 {
-    font-size: 1.8rem;
-    padding-top: 50px;
+    font-size: 2rem;
+    padding-top: 25px;
   }
 
   #solution-container .solution-content p {
@@ -1630,7 +2126,7 @@ width: 33.3%;
 
   /*--- Section: UX Design Process ---*/
   #ux-design h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align: center;
   }
 
@@ -1684,18 +2180,18 @@ width: 33.3%;
   /*--- Section: Market Research ---*/
   #research-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px 50px;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 50px;
   }
 
   .research-content {
-    grid-column: 2/span 2;
+    grid-column: 2/span 4;
     margin: auto;
     padding: 10px;
   }
 
   #research-container .research-content h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   #research-container .research-content p {
@@ -1725,7 +2221,8 @@ width: 33.3%;
   }
 
   #competitive-analysis-social-icons .analysis-icon {
-    width: 65%;
+    margin-top: 50px;
+    width: 100%;
   }
 
   .googledrive {
@@ -1735,7 +2232,7 @@ width: 33.3%;
   }
 
   #analysis-container .analysis-content h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   #analysis-container .analysis-content p {
@@ -1744,6 +2241,10 @@ width: 33.3%;
 
   #analysis-container .analysis-content ul {
     font-size: 1.2rem;
+  }
+
+  #analysis-container .analysis-content li {
+    margin-bottom: 20px;
   }
 
   /*--- Section: User Surveys ---*/
@@ -1758,7 +2259,7 @@ width: 33.3%;
   }
 
   #survey-container .survey-content h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   #survey-container .survey-content p {
@@ -1772,99 +2273,42 @@ width: 33.3%;
   #survey-image {
     grid-column: 3/span 4;
     justify-self: center;
-    margin-bottom: auto;
-    margin: 10px;
-    padding: 10px 50px;
-    width: 80%;
+    margin: 25px;
+    padding: 50px;
+    width: 90%;
   }
 
   #view-user-survey {
-    grid-column: 1/span 2;
+    grid-column: 2/span 2;
     justify-self: center;
-    margin: 10px;
     padding: 10px;
     width: 65%;
   }
 
   /*--- Section: Data Analysis ---*/
-  #data-container {
-    align-items: center;
-    display: grid;
-    grid-gap: 25px;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: auto;
-    padding: 10px 50px;
-  }
-
   #data-analysis h2 {
-    font-size: 1.8rem;
-    text-align: center;
+    font-size: 2rem;
   }
 
   #data-analysis h3 {
-    font-size: 1.4rem;
-    grid-column: 1/span 4;
-    text-align: center;
-  }
-
-  #data-analysis .data-content-1 h3 {
     font-size: 1.6rem;
-    text-align: center;
-  }
-
-  #data-container .data-content-1 {
-  }
-
-  #data-container #analysis-graph {
-    grid-column: 2/4;
-  }
-
-  #data-container #analysis-graph img {
-    width: 75%;
-  }
-
-  #pie-graph-bullets img {
-    width: 50%;
-  }
-
-  #data-analysis .data-content-3 h2 {
-    font-size: 1.4rem;
-  }
-
-  .data-content-3 {
-    grid-column: 1/span 2;
-  }
-
-  .data-content-4 {
-    grid-column: 3/span 4;
-    padding-left: 50px;
-  }
-
-  #data-container .data-content-4 h2 {
-    font-size: 1.8rem;
-    text-align: left;
-  }
-
-  #data-container .data-content-4 p {
-    font-size: 1.2rem;
-    text-align: left;
   }
 
   /*--- Section: Key Insights ---*/
   #insights-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding: 10px 50px;
   }
 
   .insights-content {
-    grid-column: 2/span 2;
+    grid-column: 2/span 4;
     margin: auto;
     padding: 10px;
   }
 
   #insights-container .insights-content h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   #insights-container .insights-content p {
@@ -1905,8 +2349,7 @@ width: 33.3%;
   }
 
   #user-personas h2 {
-    font-size: 1.8rem;
-    padding-top: 10px;
+    font-size: 2rem;
   }
 
   #personas-container .personas-content h2 {
@@ -1963,7 +2406,7 @@ width: 33.3%;
   }
 
   #stories-container .stories-content h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   #stories-container .stories-content p {
@@ -1972,7 +2415,7 @@ width: 33.3%;
 
   #stories-container .stories-content ul {
     font-size: 1.2rem;
-    padding-left: 75px;
+    padding-left: 50px;
   }
 
   /*--- Section: User Flows ---*/
@@ -1991,13 +2434,13 @@ width: 33.3%;
   #flows-container #user-flows-1 {
     grid-column: 1/span 3;
     margin: auto;
-    padding: 10px 50px;
+    padding: 25px;
   }
 
   #flows-container #user-flows-2 {
     grid-column: 4/span 6;
     margin: auto;
-    padding: 10px 50px;
+    padding: 25px;
   }
 
   #user-flows-1 img {
@@ -2083,7 +2526,8 @@ width: 33.3%;
     grid-column: 3/span 4;
     justify-self: center;
     margin: 25px;
-    padding: 50px;
+    padding: 25px;
+    width: 100%;
   }
 
   #testing-container h2 {
@@ -2146,8 +2590,8 @@ width: 33.3%;
 
   #logo-container-2 #logo-final {
     grid-column: 3/span 4;
-    margin: auto;
-    padding: 10px 50px;
+    margin-top: 85px;
+    padding: 25px;
   }
 
   #logo-final img {
@@ -2224,7 +2668,7 @@ width: 33.3%;
 
   #colors-container #color-palette {
     grid-column: 4/span 6;
-    margin: 50px;
+    margin-top: 115px;
     padding: 50px;
   }
 
@@ -2251,7 +2695,7 @@ width: 33.3%;
   /*--- Section: HiFi Prototype ---*/
   #hifi-container-1 {
     display: grid;
-    grid-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 10px 50px;
   }
 
@@ -2262,7 +2706,7 @@ width: 33.3%;
   }
 
   #hifi-container-1 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   #hifi-container-1 p {
@@ -2366,29 +2810,28 @@ width: 33.3%;
   }
 
   /*--- Section: Footer ---*/
-  #footer {
+  #footer-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 10px 50px;
+    padding: 10px 25px;
   }
 
-  .footer-container {
+  #footer-container .footer-content {
     grid-column: 2/span 4;
-    padding: 25px 10px;
   }
 
-  #footer h2 {
+  .footer-content h2 {
     font-size: 1.6rem;
     text-align: center;
   }
 
-  #footer p {
-    font-size: 1.4rem;
+  .footer-content p {
+    font-size: 1.2rem;
     text-align: center;
   }
 
   #footer .copy {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
 }
