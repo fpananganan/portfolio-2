@@ -338,6 +338,7 @@ img {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(6, 1fr);
+    padding: 10px 50px;
   }
 
   #projects-container #projects-image {
@@ -345,13 +346,12 @@ img {
   }
 
   #projects-image img {
-    padding-left: 50px; 
-    width: 85%;
+    width: 90%;
+    margin-left: 35px;
   }
 
   #projects-container .projects-content {
     grid-column: 4/span 6;
-    padding-top: 35px;
   }
 
   #projects h2 {
@@ -361,6 +361,8 @@ img {
 
   #projects-container .projects-content p {
     font-size: 1.4rem;
+    margin: 20px;
+    padding: 20px;
   }
 
   #case-study {
@@ -369,7 +371,7 @@ img {
 
   /*--- Section: Footer ---*/
   #footer {
-    padding: 25px;
+    padding: 10px 75px;
   }
 
   #footer-container .footer-content {

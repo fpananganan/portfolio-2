@@ -2056,7 +2056,7 @@ width: 33.3%;
   }
 
   #navbar a {
-    font-size: 1.4rem; 
+    font-size: 1.4rem;
   }
 
   /*--- Section: Overview ---*/
@@ -2342,7 +2342,7 @@ width: 33.3%;
   #insights-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 10px 50px;
+    padding: 25px;
   }
 
   .insights-content {
@@ -2365,7 +2365,7 @@ width: 33.3%;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(6, 1fr);
-    padding: 10px;
+    padding: 25px;
   }
 
   #personas-container h2 {
@@ -2376,7 +2376,6 @@ width: 33.3%;
   #personas-container .personas-content {
     grid-column: 2/span 4;
     margin: auto;
-    padding-top: 25px;
   }
 
   #user-personas img {
@@ -2439,7 +2438,7 @@ width: 33.3%;
     color: #01B5CC;
     font-size: 1.4rem;
     font-weight: 400;
-    margin-top: 25px;
+    margin-top: 50px;
     text-align: center;
   }
 
@@ -2886,28 +2885,19 @@ width: 33.3%;
   }
 
   /*--- Section: Footer ---*/
-  #footer-container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    padding: 10px 25px;
+  #footer {
+    padding: 10px 75px;
   }
 
   #footer-container .footer-content {
     grid-column: 2/span 4;
   }
 
-  .footer-content h2 {
-    font-size: 1.6rem;
-    text-align: center;
+  #footer-container .footer-content h2 {
+    font-size: 1.8rem;
   }
 
-  .footer-content p {
-    font-size: 1.2rem;
-    text-align: center;
+  #footer-container .footer-content p {
+    font-size: 1.4rem;
   }
-
-  #footer .copy {
-    font-size: 1rem;
-  }
-
 }

@@ -78,11 +78,12 @@ main {
 /*--- Section: Introduction ---*/
 #introduction {
   background-color: #0E1111;
-  padding: 10px;
+  margin: auto;
+  padding: 20px;
 }
 
 #introduction-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
@@ -92,32 +93,32 @@ main {
 
 #introduction-container .content h2 {
   color: #F5F5F5;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  font-weight: 300;
   text-align: left;
 }
 
 #introduction-container .content p {
   color: #F5F5F5;
   font-size: 1rem;
+  font-weight: 300;
   text-align: left;
 }
 
 #resume {
-  margin: auto;
-  padding: 25px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .btn-resume {
   background: #0E1111;
-  border: 2px solid #F5F5F5;
+  border: 1.5px solid #F5F5F5;
   color: #F5F5F5;
   cursor: pointer;
   display: inline-block;
   font-size: 1rem;
-  margin: 10px;
+  margin: auto;
   padding: 10px;
-  text-decoration: none;
-  text-transform: uppercase;
   width: 100%;
 }
 
@@ -157,7 +158,8 @@ main {
 
 #interests-container h2 {
   color: #0E1111;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  font-weight: 500;
   padding-top: 25px;
   text-align: center;
 }
@@ -184,28 +186,35 @@ main {
 /*--- Section: Footer ---*/
 #footer {
   background-color: #0E1111;
+  margin: auto;
+  padding: 20px;
+}
+
+#footer-container {
+  margin: auto;
   padding: 10px;
 }
 
-.footer-container {
-  margin: 10px;
-  padding: 10px;
-}
-
-#footer h2 {
+#footer-container h2 {
   color: #F5F5F5;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  padding-bottom: 10px;
   text-align: center;
 }
 
-#footer p {
+#footer-container p {
   color: #F5F5F5;
   font-size: 1rem;
+  font-weight: 300;
+  padding: 10px;
   text-align: center;
 }
 
 .icons-footer {
   font-size: .7rem;
+  margin: 10px;
+  padding: 10px;
 }
 
 .icons-footer a {
@@ -220,7 +229,6 @@ main {
 
 #footer .copy {
   font-size: .8rem;
-  padding-bottom: 25px;
   padding-top: 5px;
   text-align: center;
 }
@@ -333,22 +341,23 @@ main {
     width: 75%;
   }
 
-  #footer {
+  /*--- Section: Footer ---*/
+  #footer-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     padding: 10px 25px;
   }
 
-  .footer-container {
+  #footer-container .footer-content {
     grid-column: 1/span 6;
   }
 
-  #footer h2 {
+  .footer-content h2 {
     font-size: 1.6rem;
     text-align: center;
   }
 
-  #footer p {
+  .footer-content p {
     font-size: 1.2rem;
     text-align: center;
   }
@@ -379,7 +388,19 @@ main {
   }
 
   /*--- Section: Footer ---*/
-  .footer-container {
+  #footer {
+    padding: 10px 75px;
+  }
+
+  #footer-container .footer-content {
     grid-column: 2/span 4;
+  }
+
+  #footer-container .footer-content h2 {
+    font-size: 1.8rem;
+  }
+
+  #footer-container .footer-content p {
+    font-size: 1.4rem;
   }
 }
