@@ -2810,6 +2810,22 @@ width: 33.3%;
     font-size: 1.4rem;
   }
 
+  #typography-container .typography-content-2 h2 {
+    font-size: 2.2rem;
+  }
+
+  #typography-container .typography-content-2 p {
+    font-size: 1.4rem;
+  }
+
+  #typography-container .typography-content-3 h2 {
+    font-size: 2.2rem;
+  }
+
+  #typography-container .typography-content-3 p {
+    font-size: 1.4rem;
+  }
+
   /*--- Section: Colors ---*/
   #colors-container {
     display: grid;
@@ -2872,6 +2888,10 @@ width: 33.3%;
 
   #hifi-container-1 .hifi-content-1 p {
     font-size: 1.4rem;
+  }
+
+  #hifi-container-2 .hifi-content-3 p {
+    font-size: 1.4rem; 
   }
 
   #preference-testing-1 {
