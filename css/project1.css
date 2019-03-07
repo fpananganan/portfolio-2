@@ -111,6 +111,7 @@ img {
   font-weight: 100;
   margin: auto;
   padding: 10px;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -130,6 +131,7 @@ img {
   font-weight: 100;
   margin: auto;
   padding: 10px;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -437,6 +439,7 @@ width: 33.3%;
   font-weight: 100;
   margin-top: 20px;
   padding: 10px;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -505,6 +508,7 @@ width: 33.3%;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 10px;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -627,14 +631,14 @@ width: 33.3%;
 
 #user-personas h2 {
   color: #0E1111;
-  font-size: 1.2rem;
-  font-weight: 500;
-  text-align: left;
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-align: center;
 }
 
 #personas-container {
   margin: auto;
-  padding: 10px;
+  padding: 0 10px;
   text-align: left;
 }
 
@@ -856,6 +860,7 @@ width: 33.3%;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 10px;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -934,6 +939,7 @@ width: 33.3%;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 10px;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -1008,6 +1014,7 @@ width: 33.3%;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 10px;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -1202,6 +1209,7 @@ width: 33.3%;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 10px;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -1268,6 +1276,7 @@ width: 33.3%;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 10px;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -1288,6 +1297,7 @@ width: 33.3%;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 10px;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -1383,22 +1393,21 @@ width: 33.3%;
 
 #footer-container {
   margin: auto;
-  padding: 10px;
+  padding: auto;
 }
 
-#footer-container h2 {
+.footer-content h2 {
   color: #F5F5F5;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 300;
   padding-bottom: 10px;
   text-align: center;
 }
 
-#footer-container p {
+.footer-content p {
   color: #F5F5F5;
   font-size: 1rem;
   font-weight: 300;
-  padding: 10px;
   text-align: center;
 }
 
@@ -1429,7 +1438,7 @@ width: 33.3%;
 }
 
 /*--- Media Queries ---*/
-@media(min-width: 500px) {
+@media(min-width: 768px) {
   /*--- Section: Navbar ---*/
   #logo {
     padding: 10px 15px;
@@ -1453,12 +1462,17 @@ width: 33.3%;
   }
 
   /*--- Section: Header ---*/
+  #overview h2 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
   #overview-container .overview-content {
     padding: 10px 25px;
   }
 
   #overview-container .overview-content h2 {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
   }
 
   #overview-container .overview-content p {
@@ -1495,7 +1509,7 @@ width: 33.3%;
   }
 
   #problem-container .problem-content h2 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
 
   #problem-container .problem-content p {
@@ -1508,7 +1522,7 @@ width: 33.3%;
   }
 
   #solution-container .solution-content h2 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
 
   #solution-container .solution-content p {
@@ -1523,7 +1537,7 @@ width: 33.3%;
 
   /*--- Section: UX Design Process ---*/
   #ux-design h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #ux-container .ux-content-1 {
@@ -1613,7 +1627,7 @@ width: 33.3%;
   }
 
   #research-container .research-content h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #research-container .research-content p {
@@ -1662,7 +1676,7 @@ width: 33.3%;
   }
 
   #survey-container .survey-content h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #survey-container .survey-content p {
@@ -1694,7 +1708,7 @@ width: 33.3%;
 
   /*--- Section: Data Analysis ---*/
   #data-analysis h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #data-analysis h3 {
@@ -1740,7 +1754,7 @@ width: 33.3%;
   }
 
   #data-container .data-content-4 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   #data-container .data-content-4 p {
@@ -1753,7 +1767,7 @@ width: 33.3%;
   }
 
   #insights-container .insights-content h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #insights-container .insights-content p {
@@ -1762,12 +1776,70 @@ width: 33.3%;
 
   /*--- Section: User Personas ---*/
   #user-personas h2 {
-    font-size: 2rem;
-    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 0;
   }
 
   #personas-container .personas-content {
     padding: 10px 25px;
+  }
+
+  #personas-container .personas-content p {
+    font-size: 1.2rem;
+  }
+
+  #personas-container .persona-1 h2 {
+    font-size: 1.8rem;
+  }
+
+  #personas-container .persona-1 p {
+    font-size: 1.2rem;
+  }
+
+  #personas-container .persona-1-content h2 {
+    font-size: 1.4rem;
+    text-align: left;
+  }
+
+  #personas-container .persona-1-content p {
+    font-size: 1.2rem;
+  }
+
+  #personas-container .persona-1-content ul {
+    font-size: 1.2rem;
+  }
+
+  #personas-container .persona-1 #quote {
+    color: #01B5CC;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  #personas-container .persona-2 h2 {
+    font-size: 1.8rem;
+  }
+
+  #personas-container .persona-2 p {
+    font-size: 1.2rem;
+  }
+
+  #personas-container .persona-2-content h2 {
+    font-size: 1.4rem;
+    text-align: left;
+  }
+
+  #personas-container .persona-2-content p {
+    font-size: 1.2rem;
+  }
+
+  #personas-container .persona-2-content ul {
+    font-size: 1.2rem;
+  }
+
+  #personas-container .persona-2 #quote {
+    color: #01B5CC;
+    font-size: 1.6rem;
+    text-align: center;
   }
 
   /*--- Section: User Stories ---*/
@@ -1776,7 +1848,7 @@ width: 33.3%;
   }
 
   #stories-container .stories-content h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #stories-container .stories-content p {
@@ -1809,7 +1881,7 @@ width: 33.3%;
   }
 
   #flows-container .flows-content h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #flows-container .flows-content p {
@@ -1844,7 +1916,7 @@ width: 33.3%;
   }
 
   #wireframes-container .prototype-content h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #wireframes-container .prototype-content p {
@@ -1869,7 +1941,7 @@ width: 33.3%;
   }
 
   #testing-container .testing-content h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #testing-container .testing-content p {
@@ -1886,7 +1958,7 @@ width: 33.3%;
   }
 
   #logo-container-1 .logo-content-1 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #logo-container-1 .logo-content-1 p {
@@ -1899,7 +1971,7 @@ width: 33.3%;
   }
 
   #logo-container-2 .logo-content-2 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #logo-container-2 .logo-content-2 p {
@@ -1912,7 +1984,7 @@ width: 33.3%;
   }
 
   #typography-container .typography-content-1 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #typography-container p {
@@ -1925,7 +1997,7 @@ width: 33.3%;
   }
 
   #colors-container .colors-content-1 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #colors-container .colors-content-1 p {
@@ -1954,7 +2026,7 @@ width: 33.3%;
   }
 
   #hifi-container-1 .hifi-content-1 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #hifi-container-1 .hifi-content-1 p {
@@ -1995,7 +2067,7 @@ width: 33.3%;
   }
 
   #hifi-container-2 .hifi-content-2 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #hifi-container-2 .hifi-content-2 p {
@@ -2012,7 +2084,7 @@ width: 33.3%;
   }
 
   #conclusion-container .conclusion-content h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   #conclusion-container .conclusion-content h3 {
@@ -2049,7 +2121,7 @@ width: 33.3%;
   }
 }
 
-@media(min-width: 800px) {
+@media(min-width: 900px) {
   /*--- Section: Navbar ---*/
   #logo img {
     width: 100px;
@@ -2078,7 +2150,7 @@ width: 33.3%;
 
   #overview-container .overview-content {
     grid-column: 4/span 6;
-    margin-top: 65px;
+    margin: 20px;
   }
 
   #overview-desktop {
@@ -2104,11 +2176,12 @@ width: 33.3%;
   }
 
   #problem-container .problem-content h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 500;
   }
 
   #problem-container .problem-content p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   /*--- Section: Solution ---*/
@@ -2116,7 +2189,7 @@ width: 33.3%;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(4, 1fr);
-    padding: 10px 50px;
+    padding: 50px;
   }
 
   .solution-content {
@@ -2126,22 +2199,26 @@ width: 33.3%;
 
   #solution-container #solution-image {
     grid-column: 3/span 4;
-    padding-top: 75px;
+    margin-top: 25px;
+    padding-top: 25px;
+    width: 100%;
   }
 
   #solution-container .solution-content h2 {
-    font-size: 2rem;
-    padding-top: 25px;
+    font-size: 3rem;
+    font-weight: 500;
   }
 
   #solution-container .solution-content p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding-left: 35px;
   }
 
   /*--- Section: UX Design Process ---*/
   #ux-design h2 {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 500;
+    padding-top: 50px;
     text-align: center;
   }
 
@@ -2153,43 +2230,43 @@ width: 33.3%;
   }
 
   #ux-container .ux-content-1 h2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   #ux-container .ux-content-1 p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   #ux-container .ux-content-2 h2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   #ux-container .ux-content-2 p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   #ux-container .ux-content-3 h2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   #ux-container .ux-content-3 p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   #ux-container .ux-content-4 h2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   #ux-container .ux-content-4 p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   #ux-container .ux-content-5 h2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   #ux-container .ux-content-5 p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   /*--- Section: Market Research ---*/
@@ -2206,18 +2283,18 @@ width: 33.3%;
   }
 
   #research-container .research-content h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   #research-container .research-content p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   /*--- Section: Competitive Analysis ---*/
   #analysis-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 10px 50px;
+    padding: 50px;
   }
 
   #view-swot-analysis {
@@ -2247,15 +2324,15 @@ width: 33.3%;
   }
 
   #analysis-container .analysis-content h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   #analysis-container .analysis-content p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   #analysis-container .analysis-content ul {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   #analysis-container .analysis-content li {
@@ -2266,7 +2343,7 @@ width: 33.3%;
   #survey-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 10px 50px;
+    padding: 50px;
   }
 
   .survey-content {
@@ -2274,15 +2351,15 @@ width: 33.3%;
   }
 
   #survey-container .survey-content h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   #survey-container .survey-content p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   #survey-container .survey-content ul {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   #survey-image {
@@ -2342,7 +2419,7 @@ width: 33.3%;
   #insights-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 25px;
+    padding: 50px;
   }
 
   .insights-content {
@@ -2352,11 +2429,11 @@ width: 33.3%;
   }
 
   #insights-container .insights-content h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   #insights-container .insights-content p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: left;
   }
 
@@ -2405,7 +2482,7 @@ width: 33.3%;
   }
 
   #user-personas h2 {
-    font-size: 1.6rem;
+    font-size: 3rem;
   }
 
   #personas-container .personas-content h2 {
@@ -2446,7 +2523,7 @@ width: 33.3%;
   #stories-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 10px 50px;
+    padding: 50px;
   }
 
   #stories-container .stories-content {
@@ -2458,8 +2535,8 @@ width: 33.3%;
   #stories-container #user-stories-table {
     display: flex;
     grid-column: 4/span 6;
-    margin: auto;
-    padding: 25px 50px;
+    margin-top: auto;
+    padding: 25px;
   }
 
   .new-user-content tbody {
@@ -2480,15 +2557,15 @@ width: 33.3%;
   }
 
   #stories-container .stories-content h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   #stories-container .stories-content p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   #stories-container .stories-content ul {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding-left: 50px;
   }
 
@@ -2496,7 +2573,7 @@ width: 33.3%;
   #flows-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 10px 50px;
+    padding: 50px;
   }
 
   #flows-container .flows-content {
@@ -2518,7 +2595,11 @@ width: 33.3%;
   }
 
   #user-flows-1 img {
-    width: 83.5%;
+    width: 90%;
+  }
+
+  #user-flows-2 img {
+    width: 108%;
   }
 
   #view-user-flows {
@@ -2529,19 +2610,19 @@ width: 33.3%;
     width: 50%;
   }
 
-  #flows-container h2 {
-    font-size: 1.8rem;
+  #flows-container .flows-content h2 {
+    font-size: 3rem;
   }
 
-  #flows-container p {
-    font-size: 1.2rem;
+  #flows-container .flows-content p {
+    font-size: 1.4rem;
   }
 
   /*--- Section: Wireframes & Prototype ---*/
   #wireframes-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 10px 50px;
+    padding: 50px;
   }
 
   #wireframes-container .prototype-content {
@@ -2570,19 +2651,19 @@ width: 33.3%;
     width: 50%;
   }
 
-  #wireframes-container h2 {
-    font-size: 1.8rem;
+  #wireframes-container .prototype-content h2 {
+    font-size: 3rem;
   }
 
-  #wireframes-container p {
-    font-size: 1.2rem;
+  #wireframes-container .prototype-content p {
+    font-size: 1.4rem;
   }
 
   /*--- Section: LoFi Testing ---*/
   #testing-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 10px 50px;
+    padding: 50px;
   }
 
   #testing-container .testing-content {
@@ -2604,16 +2685,16 @@ width: 33.3%;
     width: 100%;
   }
 
-  #testing-container h2 {
-    font-size: 1.8rem;
+  #testing-container .testing-content h2 {
+    font-size: 3rem;
   }
 
-  #testing-container p {
-    font-size: 1.2rem;
+  #testing-container .testing-content p {
+    font-size: 1.4rem;
   }
 
-  #testing-container ul {
-    font-size: 1.2rem;
+  #testing-container .testing-content ul {
+    font-size: 1.4rem;
   }
 
   /*--- Section: Branding ---*/
@@ -2621,7 +2702,7 @@ width: 33.3%;
     align-items: center;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 10px 50px;
+    padding: 50px;
   }
 
   #logo-container-1 .logo-content-1 {
@@ -2641,19 +2722,19 @@ width: 33.3%;
     padding: 10px;
   }
 
-  #logo-container-1 h2 {
-    font-size: 1.8rem;
+  #logo-container-1 .logo-content-1 h2 {
+    font-size: 3rem;
   }
 
-  #logo-container-1 p {
-    font-size: 1.2rem;
+  #logo-container-1 .logo-content-1 p {
+    font-size: 1.4rem;
   }
 
   /*--- Section: Logo ---*/
   #logo-container-2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 10px 50px;
+    padding: 50px;
   }
 
   #logo-container-2 .logo-content-2 {
@@ -2669,25 +2750,26 @@ width: 33.3%;
   }
 
   #logo-final img {
+    margin-top: 75px;
     padding-bottom: 50px;
     padding-left: 50px;
     padding-top: 10px;
     width: 85%;
   }
 
-  #logo-container-2 h2 {
-    font-size: 1.8rem;
+  #logo-container-2 .logo-content-2 h2 {
+    font-size: 3rem;
   }
 
-  #logo-container-2 p {
-    font-size: 1.2rem;
+  #logo-container-2 .logo-content-2 p {
+    font-size: 1.4rem;
   }
 
   /*--- Section: Typography ---*/
   #typography-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 10px 50px;
+    padding: 50px;
   }
 
   #typography-container .typography-content-1 {
@@ -2720,19 +2802,19 @@ width: 33.3%;
     padding: 10px 50px;
   }
 
-  #typography-container h2 {
-    font-size: 1.8rem;
+  #typography-container .typography-content-1 h2 {
+    font-size: 3rem;
   }
 
-  #typography-container p {
-    font-size: 1.2rem;
+  #typography-container .typography-content-1 p {
+    font-size: 1.4rem;
   }
 
   /*--- Section: Colors ---*/
   #colors-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 10px 50px;
+    padding: 50px;
   }
 
   #colors-container .colors-content-1 {
@@ -2747,6 +2829,10 @@ width: 33.3%;
     padding: 50px;
   }
 
+  #colors-container #color-palette img {
+    margin-top: 25px;
+  }
+
   #style-guide {
     grid-column: 2/span 4;
     justify-self: center;
@@ -2755,23 +2841,23 @@ width: 33.3%;
     width: 50%;
   }
 
-  #colors-container h2 {
-    font-size: 1.8rem;
+  #colors-container .colors-content-1 h2 {
+    font-size: 3rem;
   }
 
-  #colors-container p {
-    font-size: 1.2rem;
+  #colors-container .colors-content-1 p {
+    font-size: 1.4rem;
   }
 
-  #colors-container ul {
-    font-size: 1.2rem;
+  #colors-container .colors-content-1 ul {
+    font-size: 1.4rem;
   }
 
   /*--- Section: HiFi Prototype ---*/
   #hifi-container-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 10px 50px;
+    padding: 50px;
   }
 
   #hifi-container-1 .hifi-content-1 {
@@ -2780,12 +2866,12 @@ width: 33.3%;
     padding: 10px 50px;
   }
 
-  #hifi-container-1 h2 {
-    font-size: 2rem;
+  #hifi-container-1 .hifi-content-1 h2 {
+    font-size: 3rem;
   }
 
-  #hifi-container-1 p {
-    font-size: 1.2rem;
+  #hifi-container-1 .hifi-content-1 p {
+    font-size: 1.4rem;
   }
 
   #preference-testing-1 {
@@ -2805,7 +2891,7 @@ width: 33.3%;
     justify-self: center;
     margin: 10px;
     padding: 10px;
-    width: 50%;
+    width: 65%;
   }
 
   #mobile-prototype {
@@ -2813,14 +2899,14 @@ width: 33.3%;
     justify-self: center;
     margin: 10px;
     padding: 10px;
-    width: 50%;
+    width: 65%;
   }
 
   /*--- Section: HiFi Testing ---*/
   #hifi-container-2 {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 10px 50px;
+    padding: 50px;
   }
 
   #hifi-container-2 .hifi-content-2 {
@@ -2847,23 +2933,23 @@ width: 33.3%;
     padding: 10px;
   }
 
-  #hifi-container-2 h2 {
-    font-size: 1.8rem;
+  #hifi-container-2 .hifi-content-2 h2 {
+    font-size: 3rem;
   }
 
-  #hifi-container-2 p {
-    font-size: 1.2rem;
+  #hifi-container-2 .hifi-content-2 p {
+    font-size: 1.4rem;
   }
 
-  #hifi-container-2 ul {
-    font-size: 1.2rem;
+  #hifi-container-2 .hifi-content-2 ul {
+    font-size: 1.4rem;
   }
 
   /*--- Section: Conclusion ---*/
   #conclusion-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 10px 50px;
+    padding: 50px;
   }
 
   #conclusion-container .conclusion-content {
@@ -2872,16 +2958,16 @@ width: 33.3%;
     padding: 25px 10px;
   }
 
-  #conclusion-container h2 {
-    font-size: 1.8rem;
+  #conclusion-container .conclusion-content h2 {
+    font-size: 3rem;
   }
 
-  #conclusion-container h3 {
+  #conclusion-container .conclusion-content h3 {
+    font-size: 2rem;
+  }
+
+  #conclusion-container .conclusion-content p {
     font-size: 1.4rem;
-  }
-
-  #conclusion-container p {
-    font-size: 1.2rem;
   }
 
   /*--- Section: Footer ---*/
@@ -2894,7 +2980,7 @@ width: 33.3%;
   }
 
   #footer-container .footer-content h2 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
 
   #footer-container .footer-content p {

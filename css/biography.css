@@ -43,7 +43,8 @@ main {
 }
 
 #menu {
-  padding: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
 }
 
 #menu a:nth-child(2) {
@@ -52,7 +53,8 @@ main {
 
 #navbar a {
   color: #F5F5F5;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: 300;
   text-decoration: none;
 }
 
@@ -119,6 +121,7 @@ main {
   font-size: 1rem;
   margin: auto;
   padding: 10px;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -239,7 +242,7 @@ main {
 
 /*--- Media Queries: Screens 500px and Above ---*/
 
-@media(min-width: 500px) {
+@media(min-width: 768px) {
   /*--- Section: Navbar ---*/
   #logo {
     padding: 10px 15px;
@@ -282,7 +285,7 @@ main {
   }
 
   #introduction-container .content h2 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
 
   #introduction-container .content p {
@@ -303,7 +306,7 @@ main {
   }
 
   #interests-container h2 {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
   }
 
   #interests-container h3 {
@@ -352,12 +355,12 @@ main {
     grid-column: 1/span 6;
   }
 
-  .footer-content h2 {
+  #footer-container h2 {
     font-size: 1.6rem;
     text-align: center;
   }
 
-  .footer-content p {
+  #footer-container p {
     font-size: 1.2rem;
     text-align: center;
   }
@@ -367,7 +370,7 @@ main {
   }
 }
 
-@media(min-width: 800px) {
+@media(min-width: 900px) {
   /*--- Section: Navbar ---*/
   #logo img {
     width: 100px;
@@ -382,9 +385,26 @@ main {
     grid-column: 2/span 4;
   }
 
+  #introduction-container .content h2 {
+    font-size: 2.5rem;
+  }
+
+  #introduction-container .content p {
+    font-size: 1.4rem;
+  }
+
   #resume {
     justify-self: center;
     width: 50%;
+  }
+
+  /*--- Section: Interests ---*/
+  #interests-container h2 {
+    font-size: 2.5rem;
+  }
+
+  #interests-container h3 {
+    font-size: 1.4rem;
   }
 
   /*--- Section: Footer ---*/
@@ -396,11 +416,11 @@ main {
     grid-column: 2/span 4;
   }
 
-  #footer-container .footer-content h2 {
+  #footer-container h2 {
     font-size: 1.8rem;
   }
 
-  #footer-container .footer-content p {
+  #footer-container p {
     font-size: 1.4rem;
   }
 }

@@ -59,96 +59,76 @@ img {
   transition: 0.5s;
 }
 
-/*--- Section: Header ---*/
-#header {
+/*--- Section: Contact Form ---*/
+#contact-form {
   background-color: #0E1111;
   margin: auto;
-  padding: 20px;
+  max-width: 600px;
+  padding: 100px 20px;
 }
 
-#header-container {
+#contact-container {
   margin: 10px;
   padding: 10px;
 }
 
-#header-container h1 {
+.contact-section h2 {
   color: #F5F5F5;
-  font-size: 1.8rem;
-  font-weight: 300;
-  padding-bottom: 25px;
-}
-
-#header-container h1 span {
-  color: #01B5CC;
-}
-
-.lightSpeedIn {
-  animation-duration: 1.5s;
-  animation-delay: 1s;
-}
-
-#header-container .header-content p {
-  color: #F5F5F5;
-  font-size: 1rem;
-  font-weight: 300;
-  text-align: left;
-}
-
-#header-container .header-content p span {
-  color: #01B5CC;
-}
-
-/*--- Section: Projects ---*/
-#projects {
-  background-color: #F0F0F0;
-  margin: auto;
-  padding: 20px;
-}
-
-#projects-container {
-  margin: auto;
-  padding: auto;
-}
-
-#projects h2 {
-  color: #0E1111;
   font-size: 1.8rem;
   font-weight: 300;
   text-align: center;
 }
 
-#projects-container .projects-content p {
-  color: #0E1111;
+.contact-section p {
+  color: #F5F5F5;
   font-size: 1rem;
   font-weight: 300;
-  margin: 10px;
-  padding: 10px;
   text-align: left;
 }
 
-#case-study {
-  margin: 10px;
-  padding: 10px;
-}
-
-.case-study-btn {
-  background: #F0F0F0;
-  border: 1.5px solid #0E1111;
-  color: #0E1111;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  font-weight: 100;
+.contact-form {
+  max-width: 600px;
   margin: auto;
-  padding: 10px;
-  text-transform: uppercase;
-  width: 100%;
+  padding: 0 10px;
+  overflow: hidden;
 }
 
-.case-study-btn:hover, .case-study-btn:active {
-  color: #01B5CC;
-  border-color: #01B5CC;
-  transition: 0.4s;
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: rgba(0,0,0,0.7);
+  padding: 20px 25px;
+  outline: none;
+  color: #DDD;
+  transition: 0.5s;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+.contact-form-text:focus {
+  box-shadow: 0 0 10px 4px #34495E;
+}
+
+textarea .contact-form-text {
+  resize: none;
+  height: 120px;
+}
+
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: #01B5CC;
+  color: #FFF;
+  padding: 12px 50px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+  background: #34495E;
 }
 
 /*--- Section: Footer ---*/
@@ -205,6 +185,7 @@ img {
 }
 
 /*--- Media Queries ---*/
+
 @media(min-width: 768px) {
 
   /*--- Section: Navbar ---*/
@@ -229,57 +210,18 @@ img {
     padding-left: 35px;
   }
 
-  /*--- Section: Header --- */
-  #header-container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    padding: 10px 50px;
+  /*--- Section: Contact Form ---*/
+  .contact-form {
+    padding: 5px;
   }
 
-  #header-container .header-content {
-    grid-column: 1/span 6;
-    margin: auto;
-    padding: auto;
-  }
-
-  #header-container .header-content h1 {
-    font-size: 3.5rem;
-    font-weight: 300;
-    line-height: 1;
-    padding-bottom: 25px;
-    text-align: center;
-  }
-
-  #header-container .header-content p {
-    font-size: 1.2rem;
-  }
-
-  /*--- Section: Projects ---*/
-  #projects h2 {
+  .contact-section h2 {
     font-size: 2.5rem;
-    font-weight: 300;
+    font-weight: 500;
   }
-  #projects-container .projects-content {
+
+  .contact-section p {
     font-size: 1.2rem;
-    margin: 10px;
-    padding: 10px;
-    text-align: left;
-  }
-
-  #projects-container .projects-content p {
-    font-size: 1.2rem;
-  }
-
-  #projects-image {
-    margin: 10px;
-    padding: 10px;
-    width: 650px;
-  }
-
-  #case-study {
-    margin: auto;
-    padding: 10px;
-    width: 60%;
   }
 
   /*--- Section: Footer ---*/
@@ -309,6 +251,7 @@ img {
 }
 
 @media(min-width: 900px) {
+
   /*--- Section: Navbar ---*/
   #logo img {
     width: 100px;
@@ -318,56 +261,18 @@ img {
     font-size: 1.4rem;
   }
 
-  /*--- Section: Header ---*/
-  #header-container .header-content {
-    grid-column: 2/span 4;
+  /*--- Section: Contact Form ---*/
+  .contact-form {
+    padding: 5px;
+  }
+  
+  .contact-section h2 {
+    font-size: 3rem;
+    font-weight: 600;
   }
 
-  #header-container .header-content h1 {
-    font-size: 5.5rem;
-  }
-
-  #header-container .header-content p {
+  .contact-section p {
     font-size: 1.4rem;
-  }
-
-  /*--- Section: Projects ---*/
-  #projects {
-    padding: 25px;
-  }
-  #projects-container {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(6, 1fr);
-    padding: 10px 50px;
-  }
-
-  #projects-container #projects-image {
-    grid-column: 1/span 2;
-  }
-
-  #projects-image img {
-    width: 90%;
-    margin-left: 35px;
-  }
-
-  #projects-container .projects-content {
-    grid-column: 4/span 6;
-  }
-
-  #projects h2 {
-    font-size: 3.5rem;
-    grid-column: 2/span 4;
-  }
-
-  #projects-container .projects-content p {
-    font-size: 1.4rem;
-    margin: 20px;
-    padding: 20px;
-  }
-
-  #case-study {
-    width: 60%;
   }
 
   /*--- Section: Footer ---*/
@@ -386,5 +291,4 @@ img {
   .footer-content p {
     font-size: 1.4rem;
   }
-
 }
