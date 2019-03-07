@@ -2378,6 +2378,10 @@ width: 33.3%;
   }
 
   /*--- Section: Data Analysis ---*/
+  #data-analysis {
+    padding: 75px; 
+  }
+
   #data-container .data-content-1 {
     width: 65%;
   }
@@ -2891,7 +2895,7 @@ width: 33.3%;
   }
 
   #hifi-container-2 .hifi-content-3 p {
-    font-size: 1.4rem; 
+    font-size: 1.4rem;
   }
 
   #preference-testing-1 {
