@@ -56,6 +56,7 @@ main {
   font-size: 1rem;
   font-weight: 300;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 #navbar a:hover, #navbar a:active {
@@ -122,13 +123,14 @@ main {
   margin: auto;
   padding: 10px;
   text-transform: uppercase;
+  transition: 0.5s;
   width: 100%;
 }
 
 .btn-resume:hover, .btn-resume:active {
   border-color: #01B5CC;
   color: #01B5CC;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 /*--- Section: Interests ---*/
@@ -223,11 +225,12 @@ main {
 .icons-footer a {
   color: #F5F5F5;
   padding: 10px;
+  transition: 0.5s;
 }
 
 .icons-footer a:hover, .icons-footer a:active {
   color: #01B5CC;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 #footer .copy {
@@ -378,6 +381,14 @@ main {
 
   #navbar a {
     font-size: 1.4rem;
+  }
+
+  /*--- Section: Header ---*/
+  #header-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%; 
   }
 
   /*--- Section: Introduction ---*/

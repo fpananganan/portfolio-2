@@ -52,6 +52,7 @@ img {
   font-size: 1rem;
   font-weight: 300;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 #navbar a:hover, #navbar a:active {
@@ -112,13 +113,14 @@ img {
   margin: auto;
   padding: 10px;
   text-transform: uppercase;
+  transition: 0.5s;
   width: 100%;
 }
 
 .btn-desktop:hover, .btn-desktop:active {
   border-color: #01B5CC;
   color: #01B5CC;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 .btn-mobile {
@@ -132,6 +134,7 @@ img {
   margin: auto;
   padding: 10px;
   text-transform: uppercase;
+  transition: 0.5s;
   width: 100%;
 }
 
@@ -440,13 +443,14 @@ width: 33.3%;
   margin-top: 20px;
   padding: 10px;
   text-transform: uppercase;
+  transition: 0.5s;
   width: 100%;
 }
 
 .btn-swotanalysis:hover, .btn-swotanalysis:active {
   border-color: #01B5CC;
   color: #01B5CC;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 /*--- Section: User Surveys ---*/
@@ -509,20 +513,43 @@ width: 33.3%;
   margin-top: 10px;
   padding: 10px;
   text-transform: uppercase;
+  transition: 0.5s;
   width: 100%;
 }
 
 .btn-usersurvey:hover, .btn-usersurvey:active {
   border-color: #01B5CC;
   color: #01B5CC;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 /*--- Section: Data Analysis ---*/
-#data-analysis {
-  background-color: #0E1111;
+#data-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#data-container .data-content-1 {
   margin: auto;
-  padding: 20px;
+  padding: 15px;
+}
+
+#data-container .data-content-2 {
+  margin: auto;
+  padding: 15px;
+}
+
+#data-container .data-content-3 {
+  grid-column: 1/span 2;
+  margin: auto;
+  padding: 25px;
+}
+
+#data-container .data-content-4 {
+  grid-column: 1/span 2;
+  margin: auto;
+  padding: 10px 25px 50px 25px;
+  text-align: left;
 }
 
 #data-analysis h2 {
@@ -535,66 +562,27 @@ width: 33.3%;
   font-weight: 300;
 }
 
-#data-container .data-content-1 {
-  margin: auto;
-  padding: 10px;
-}
-
-#analysis-graph img {
-  display: block;
-  float: right;
-  margin-top: 25px;
-  padding-right: 10px;
-  width: 45%;
-}
-
-#pie-graph-bullets img {
-  display: block;
-  width: 50%;
-}
-
-#data-container .data-content-2 {
-  margin: 10px;
-  padding: 10px;
-}
-
-#data-container .data-content-3 {
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-}
-
 #data-container .data-content-3 h2 {
   font-size: 1.2rem;
   font-weight: 300;
 }
 
-#valued-features-graph img {
-  display: block;
-  padding-left: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-}
-
-#data-container .data-content-4 {
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-}
-
 #data-container .data-content-4 h2 {
-  font-size: 1.2rem;
-  font-weight: 300;
-}
-
-#data-container .data-content-4 h2 span {
-  color: #01B5CC;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: auto;
+  padding-bottom: 10px;
 }
 
 #data-container .data-content-4 p {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 100;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+#data-container .data-content-4 span {
+  color: #01B5CC;
 }
 
 /*--- Section: Key Insights ---*/
@@ -708,6 +696,14 @@ width: 33.3%;
   font-weight: 300;
 }
 
+.persona-1-content #quote {
+  color: #01B5CC;
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin: auto;
+  text-align: left;
+}
+
 .persona-2 {
   border: 1px solid #D3D3D3;
   margin-bottom: 10px;
@@ -760,6 +756,14 @@ width: 33.3%;
   color: #0E1111;
   font-size: 1rem;
   font-weight: 300;
+}
+
+.persona-2-content #quote {
+  color: #01B5CC;
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin: auto;
+  text-align: left;
 }
 
 /*--- Section: User Stories ---*/
@@ -861,13 +865,14 @@ width: 33.3%;
   margin-top: 10px;
   padding: 10px;
   text-transform: uppercase;
+  transition: 0.5s;
   width: 100%;
 }
 
 .btn-userstories:hover, .btn-userstories:active {
   border-color: #01B5CC;
   color: #01B5CC;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 /*--- Section: User Flows ---*/
@@ -940,13 +945,14 @@ width: 33.3%;
   margin-top: 10px;
   padding: 10px;
   text-transform: uppercase;
+  transition: 0.5s;
   width: 100%;
 }
 
 .btn-userflows:hover, .btn-userflows:active {
   border-color: #01B5CC;
   color: #01B5CC;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 /*--- Section: Wireframes & Prototype ---*/
@@ -1015,13 +1021,14 @@ width: 33.3%;
   margin-top: 10px;
   padding: 10px;
   text-transform: uppercase;
+  transition: 0.5s;
   width: 100%;
 }
 
 .btn-lofi:hover, .btn-lofi:active {
   border-color: #0E1111;
   color: #0E1111;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 /*--- Section: LoFi Testing ---*/
@@ -1210,13 +1217,14 @@ width: 33.3%;
   margin-top: 10px;
   padding: 10px;
   text-transform: uppercase;
+  transition: 0.5s;
   width: 100%;
 }
 
 .btn-styleguide:hover, .btn-styleguide:active {
   border-color: #01B5CC;
   color: #01B5CC;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 /*--- Section: HiFi Prototype ---*/
@@ -1277,13 +1285,14 @@ width: 33.3%;
   margin-top: 10px;
   padding: 10px;
   text-transform: uppercase;
+  transition: 0.5s;
   width: 100%;
 }
 
 .btn-desktop-2:hover, .btn-desktop-2:active {
   border-color: #01B5CC;
   color: #01B5CC;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 .btn-mobile-2 {
@@ -1298,13 +1307,14 @@ width: 33.3%;
   margin-top: 10px;
   padding: 10px;
   text-transform: uppercase;
+  transition: 0.5s;
   width: 100%;
 }
 
 .btn-mobile-2:hover, .btn-mobile-2:active {
   border-color: #01B5CC;
   color: #01B5CC;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 /*--- Section: Hi-Fi Testing ---*/
@@ -1420,11 +1430,12 @@ width: 33.3%;
 .icons-footer a {
   color: #F5F5F5;
   padding: 10px;
+  transition: 0.5s;
 }
 
 .icons-footer a:hover, .icons-footer a:active {
   color: #01B5CC;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 #footer .copy {
@@ -1715,50 +1726,28 @@ width: 33.3%;
     font-size: 1.4rem;
   }
 
+  #data-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   #data-container .data-content-1 {
-    padding: 10px 25px;
-  }
-
-  #data-container #analysis-graph {
-    margin-left: 115px;
-    width: 80%;
-  }
-
-  #data-container .data-content-2 {
-    padding: 10px 25px;
-  }
-
-  #data-container #pie-graph-bullets {
-    margin-left: 25px;
     width: 75%;
   }
 
+  #data-container .data-content-2 {
+    width: 65%;
+  }
+
   #data-container .data-content-3 {
-    margin-top: 50px;
-    padding: 10px 25px;
-  }
-
-  #data-container #valued-features-graph {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-  }
-
-  #data-container .data-content-3 h2 {
-    font-size: 1.4rem;
+    width: 75%;
   }
 
   #data-container .data-content-4 {
-    margin-top: 50px;
-    padding: 10px 25px;
-  }
-
-  #data-container .data-content-4 h2 {
-    font-size: 2rem;
-  }
-
-  #data-container .data-content-4 p {
-    font-size: 1.2rem;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    width: 75%;
   }
 
   /*--- Section: Key Insights ---*/
@@ -2139,27 +2128,33 @@ width: 33.3%;
   #overview-container {
     display: grid;
     grid-gap: 25px;
-    grid-template-columns: repeat(6, 1fr);
-    padding: 10px 50px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 25px;
   }
 
   #overview-container #overview-image {
-    grid-column: 1/span 3;
-    padding-top: 95px;
+    grid-column: 1;
+    margin: auto;
+    padding-top: 100px
   }
 
   #overview-container .overview-content {
-    grid-column: 4/span 6;
-    margin: 20px;
+    grid-column: 2;
+    margin: auto;
+    padding: 50px;
   }
 
   #overview-desktop {
-    grid-column: 1/span 3;
-    width: 75%;
+    grid-column: 1;
+    width: 65%;
   }
 
   #overview-mobile {
-    grid-column: 4/span 6;
+    grid-column: 2;
+  }
+
+  #overview-container .overview-content p {
+    font-size: 1.4rem;
   }
 
   /*--- Section: Problem ---*/
@@ -2378,8 +2373,9 @@ width: 33.3%;
   }
 
   /*--- Section: Data Analysis ---*/
-  #data-analysis {
-    padding: 75px;
+  #data-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   #data-container .data-content-1 {
@@ -2387,36 +2383,37 @@ width: 33.3%;
   }
 
   #data-container .data-content-2 {
-    margin-left: 250px;
-    padding: 15px 25px;
-    width: 65%;
+    width: 60%;
   }
 
   #data-container .data-content-3 {
-    margin-left: 250px;
-    margin-top: 75px;
-    padding: 10px 25px;
+    width: 60%;
+  }
+
+  #data-container .data-content-4 {
+    padding: 50px;
     width: 65%;
   }
 
   #data-container .data-content-3 h2 {
-    font-size: 1.8rem;
-  }
-
-  #data-container .data-content-4 h2 {
     font-size: 2.5rem;
   }
 
+  #data-container .data-content-4 h2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+  }
+
   #data-container .data-content-4 p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   #data-analysis h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   #data-analysis h3 {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
   }
 
   /*--- Section: Key Insights ---*/
@@ -2506,7 +2503,7 @@ width: 33.3%;
     color: #01B5CC;
     font-size: 1.4rem;
     font-weight: 400;
-    margin-top: 50px;
+    margin: auto;
     text-align: center;
   }
 
@@ -2519,7 +2516,7 @@ width: 33.3%;
     color: #01B5CC;
     font-size: 1.4rem;
     font-weight: 400;
-    margin-top: 50px;
+    margin: auto;
     text-align: center;
   }
 
@@ -2639,12 +2636,14 @@ width: 33.3%;
     grid-column: 1/span 3;
     margin: auto;
     padding: 10px 50px;
+    width: 100%;
   }
 
   #wireframes-container #prototype-2 {
     grid-column: 4/span 6;
     margin: auto;
     padding: 10px 50px;
+    width: 100%;
   }
 
   #view-lofi-prototype {
@@ -2792,6 +2791,7 @@ width: 33.3%;
     grid-column: 4/span 6;
     margin: auto;
     padding: 10px 50px;
+    width: 100%;
   }
 
   #typography-container .typography-content-3 {
@@ -2804,6 +2804,7 @@ width: 33.3%;
     grid-column: 4/span 6;
     margin: auto;
     padding: 10px 50px;
+    width: 100%;
   }
 
   #typography-container .typography-content-1 h2 {
