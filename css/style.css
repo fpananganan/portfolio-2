@@ -189,7 +189,7 @@ img {
 .icons-footer a {
   color: #F5F5F5;
   padding: 10px;
-  transition: 0.5s; 
+  transition: 0.5s;
 }
 
 .icons-footer a:hover, .icons-footer a:active {
@@ -274,8 +274,8 @@ img {
   }
 
   #projects-image {
-    margin: 10px;
-    padding: 10px;
+    margin: auto;
+    padding: 20px;
     width: 650px;
   }
 
