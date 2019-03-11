@@ -423,6 +423,10 @@ padding: 20px;
 width: 33.3%;
 }
 
+#competitive-analysis-social-icons .googledrive img {
+  margin-top: 5px; 
+}
+
 #competitive-analysis-social-icons {
   width: 100%;
 }
