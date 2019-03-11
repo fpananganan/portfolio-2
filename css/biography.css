@@ -390,6 +390,10 @@ main {
   }
 
   /*--- Section: Introduction ---*/
+  #introduction-container {
+    max-width: 1500px;
+  }
+
   #introduction-container .content {
     grid-column: 2/span 4;
   }
@@ -416,6 +420,7 @@ main {
   #interests-container {
     margin: auto;
     padding: 0 50px 25px 50px;
+    max-width: 1500px;
   }
 
   #interests-container h2 {
