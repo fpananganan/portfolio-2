@@ -337,6 +337,7 @@ img {
 
   #header-container .header-content {
     grid-column: 1/span 4;
+    max-width: 900px;
   }
 
   #header-container .header-content h1 {
@@ -356,6 +357,7 @@ img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 0 50px 20px 50px;
+    max-width: 1400px; 
   }
 
   #projects-container #projects-image {
