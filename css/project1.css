@@ -148,7 +148,7 @@ img {
 #problem {
   background-color: #FFF;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
 }
 
 #problem-container {
@@ -173,7 +173,7 @@ img {
 #solution {
   background-color: #01B5CC;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px 0 20px;
 }
 
 #solution-container {
@@ -363,7 +363,7 @@ img {
 #research {
   background-color: #0E1111;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
 }
 
 #research-container {
@@ -389,7 +389,7 @@ img {
 #analysis {
   background-color: #FFF;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
 }
 
 #analysis-container {
@@ -424,7 +424,7 @@ width: 33.3%;
 }
 
 #competitive-analysis-social-icons .googledrive img {
-  margin-top: 5px; 
+  margin-top: 5px;
 }
 
 #competitive-analysis-social-icons {
@@ -461,7 +461,7 @@ width: 33.3%;
 #surveys {
   background-color: #F2F2F2;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 #survey-container {
@@ -528,6 +528,11 @@ width: 33.3%;
 }
 
 /*--- Section: Data Analysis ---*/
+#data-analysis {
+  margin: auto;
+  padding: 20px;
+}
+
 #data-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -552,7 +557,7 @@ width: 33.3%;
 #data-container .data-content-4 {
   grid-column: 1/span 2;
   margin: auto;
-  padding: 10px 25px 50px 25px;
+  padding: 10px 25px;
   text-align: left;
 }
 
@@ -593,7 +598,7 @@ width: 33.3%;
 #key-insights {
   background-color: #01B5CC;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
 }
 
 #insights-container {
@@ -618,7 +623,7 @@ width: 33.3%;
 #user-personas {
   background-color: #FFF;
   margin: auto;
-  padding: 20px;
+  padding: 10px 20px 50px 20px;
 }
 
 #user-personas h2 {
@@ -774,7 +779,8 @@ width: 33.3%;
 #user-stories {
   background-color: #F0F0F0;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px;
+  overflow-x: hidden;
 }
 
 #stories-container {
@@ -883,7 +889,7 @@ width: 33.3%;
 #user-flows {
   background-color: #0E1111;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 #flows-container {
@@ -963,7 +969,7 @@ width: 33.3%;
 #wireframes-prototype {
   background-color: #01B5CC;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 #wireframes-container {
@@ -1039,7 +1045,7 @@ width: 33.3%;
 #lofi-testing {
   background-color: #0E1111;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 #testing-container {
@@ -1075,12 +1081,12 @@ width: 33.3%;
 #branding-logo-1 {
   background-color: #F8F8F5;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
 }
 
 #branding-logo-2 {
   background-color: #FFF;
-  padding: 10px;
+  padding: 0 20px;
 }
 
 #logo-container-1 {
@@ -1094,7 +1100,7 @@ width: 33.3%;
 }
 
 #logo-final {
-  padding-bottom: 50px;
+  padding-bottom: 35px;
   padding-top: 25px;
 }
 
@@ -1128,7 +1134,7 @@ width: 33.3%;
 #typography {
   background-color: #01B5CC;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 #typography-container {
@@ -1171,7 +1177,7 @@ width: 33.3%;
 #colors {
   background: #FFF;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 #colors-container {
@@ -1235,7 +1241,7 @@ width: 33.3%;
 #hifi-prototype-1 {
   background-color: #F0F0F0;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 #hifi-container-1 {
@@ -1325,7 +1331,7 @@ width: 33.3%;
 #hifi-testing {
   background-color: #01B5CC;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 #hifi-container-2 {
@@ -1370,7 +1376,7 @@ width: 33.3%;
 #conclusion {
   background-color: #FFF;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px 15px 20px;
 }
 
 #conclusion-container {
@@ -1402,7 +1408,7 @@ width: 33.3%;
 #footer {
   background-color: #0E1111;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 #footer-container {
@@ -2091,12 +2097,12 @@ width: 33.3%;
   /*--- Section: Footer ---*/
   #footer-container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 10px 25px;
   }
 
   #footer-container .footer-content {
-    grid-column: 1/span 6;
+    grid-column: 1/span 2;
   }
 
   #footer-container .footer-content h2 {
@@ -2109,7 +2115,7 @@ width: 33.3%;
     text-align: center;
   }
 
-  #footer .copy {
+  #footer-container .footer-content .copy {
     font-size: 1rem;
   }
 }
@@ -2165,7 +2171,7 @@ width: 33.3%;
   #problem-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 50px;
+    padding: 0 50px 35px 50px;
   }
 
   .problem-content {
@@ -2188,7 +2194,7 @@ width: 33.3%;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(4, 1fr);
-    padding: 50px;
+    padding: 0 50px 35px 50px;
   }
 
   .solution-content {
@@ -2199,7 +2205,7 @@ width: 33.3%;
   #solution-container #solution-image {
     grid-column: 3/span 4;
     margin-top: 25px;
-    padding-top: 25px;
+    padding-top: 50px;
     width: 100%;
   }
 
@@ -2214,10 +2220,14 @@ width: 33.3%;
   }
 
   /*--- Section: UX Design Process ---*/
+  #ux-design {
+    padding: 20px 20px 75px 20px;
+  }
+
   #ux-design h2 {
     font-size: 3rem;
     font-weight: 500;
-    padding-top: 50px;
+    padding-top: 25px;
     text-align: center;
   }
 
@@ -2225,7 +2235,7 @@ width: 33.3%;
     display: grid;
     grid-gap: 25px;
     grid-template-columns: repeat(3, 1fr);
-    padding: 10px 50px;
+    padding: 0 50px 25px 50px;
   }
 
   #ux-container .ux-content-1 h2 {
@@ -2272,7 +2282,7 @@ width: 33.3%;
   #research-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 50px;
+    padding: 0 50px 35px 50px;
   }
 
   .research-content {
@@ -2293,7 +2303,7 @@ width: 33.3%;
   #analysis-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 50px;
+    padding: 0 50px 35px 50px;
   }
 
   #view-swot-analysis {
@@ -2342,7 +2352,7 @@ width: 33.3%;
   #survey-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 50px;
+    padding: 0 50px 35px 50px;
   }
 
   .survey-content {
@@ -2424,7 +2434,7 @@ width: 33.3%;
   #insights-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 50px;
+    padding: 0 50px 35px 50px;
   }
 
   .insights-content {
@@ -2528,7 +2538,7 @@ width: 33.3%;
   #stories-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 50px;
+    padding: 0 50px;
   }
 
   #stories-container .stories-content {
@@ -2556,8 +2566,8 @@ width: 33.3%;
   #view-user-stories {
     grid-column: 2/span 4;
     justify-self: center;
-    margin: 10px;
-    padding: 10px;
+    margin: auto;
+    padding: 20px 20px 50px 20px;
     width: 50%;
   }
 
@@ -2578,7 +2588,7 @@ width: 33.3%;
   #flows-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 50px;
+    padding: 0 50px;
   }
 
   #flows-container .flows-content {
@@ -2611,7 +2621,7 @@ width: 33.3%;
     grid-column: 2/span 4;
     justify-self: center;
     margin: 10px;
-    padding: 10px;
+    padding: 20px 20px 50px 20px;
     width: 50%;
   }
 
@@ -2627,7 +2637,7 @@ width: 33.3%;
   #wireframes-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 50px;
+    padding: 0 50px;
   }
 
   #wireframes-container .prototype-content {
@@ -2654,7 +2664,7 @@ width: 33.3%;
     grid-column: 2/span 4;
     justify-self: center;
     margin: 10px;
-    padding: 10px;
+    padding: 20px 20px 50px 20px;
     width: 50%;
   }
 
@@ -2670,7 +2680,7 @@ width: 33.3%;
   #testing-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 50px;
+    padding: 25px 50px;
   }
 
   #testing-container .testing-content {
@@ -2709,7 +2719,7 @@ width: 33.3%;
     align-items: center;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 50px;
+    padding: 25px 50px;
   }
 
   #logo-container-1 .logo-content-1 {
@@ -2741,7 +2751,7 @@ width: 33.3%;
   #logo-container-2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 50px;
+    padding: 0 50px 50px 50px;
   }
 
   #logo-container-2 .logo-content-2 {
@@ -2776,7 +2786,7 @@ width: 33.3%;
   #typography-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 50px;
+    padding: 0 50px 50px 50px;
   }
 
   #typography-container .typography-content-1 {
@@ -2839,7 +2849,7 @@ width: 33.3%;
   #colors-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 50px;
+    padding: 0 50px 35px 50px;
   }
 
   #colors-container .colors-content-1 {
@@ -2882,7 +2892,7 @@ width: 33.3%;
   #hifi-container-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 50px;
+    padding: 0 50px 35px 50px;
   }
 
   #hifi-container-1 .hifi-content-1 {
@@ -2935,7 +2945,7 @@ width: 33.3%;
   #hifi-container-2 {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 50px;
+    padding: 0 50px 35px 50px;
   }
 
   #hifi-container-2 .hifi-content-2 {
@@ -2947,7 +2957,6 @@ width: 33.3%;
   #hifi-container-2 .hifi-content-3 {
     grid-column: 2/span 4;
     margin: auto;
-    padding-bottom: 50px;
   }
 
   #hifi-refinement-1 {
@@ -2978,7 +2987,7 @@ width: 33.3%;
   #conclusion-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    padding: 50px;
+    padding: 0 50px 35px 50px;
   }
 
   #conclusion-container .conclusion-content {
@@ -3002,10 +3011,6 @@ width: 33.3%;
   /*--- Section: Footer ---*/
   #footer {
     padding: 10px 75px;
-  }
-
-  #footer-container .footer-content {
-    grid-column: 2/span 4;
   }
 
   #footer-container .footer-content h2 {

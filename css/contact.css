@@ -118,17 +118,24 @@ textarea .contact-form-text {
 }
 
 .contact-form-btn {
-  float: right;
-  border: 0;
-  background: #01B5CC;
-  color: #FFF;
-  padding: 12px 50px;
+  background: #0E1111;
+  border: 1.5px solid #F5F5F5;
+  color: #F5F5F5;
   cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 100;
+  margin: auto;
+  padding: 10px;
+  text-transform: uppercase;
   transition: 0.5s;
+  width: 100%;
 }
 
 .contact-form-btn:hover {
-  background: #34495E;
+  border-color: #01B5CC;
+  color: #01B5CC;
+  transition: 0.5s;
 }
 
 /*--- Section: Footer ---*/
@@ -224,28 +231,33 @@ textarea .contact-form-text {
     font-size: 1.2rem;
   }
 
+  .contact-form-btn {
+    float: right;
+    width: 50%;
+  }
+
   /*--- Section: Footer ---*/
   #footer-container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 10px 25px;
   }
 
   #footer-container .footer-content {
-    grid-column: 1/span 6;
+    grid-column: 1/span 2;
   }
 
-  .footer-content h2 {
+  #footer-container .footer-content h2 {
     font-size: 1.6rem;
     text-align: center;
   }
 
-  .footer-content p {
+  #footer-container .footer-content p {
     font-size: 1.2rem;
     text-align: center;
   }
 
-  #footer .copy {
+  #footer-container .footer-content .copy {
     font-size: 1rem;
   }
 }
@@ -265,7 +277,7 @@ textarea .contact-form-text {
   .contact-form {
     padding: 5px;
   }
-  
+
   .contact-section h2 {
     font-size: 3rem;
     font-weight: 600;
@@ -275,13 +287,17 @@ textarea .contact-form-text {
     font-size: 1.4rem;
   }
 
+  .contact-form-btn {
+    float: right;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 15px;
+    width: 50%; 
+  }
+
   /*--- Section: Footer ---*/
   #footer {
     padding: 10px 75px;
-  }
-
-  #footer-container .footer-content {
-    grid-column: 2/span 4;
   }
 
   .footer-content h2 {

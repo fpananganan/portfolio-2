@@ -136,11 +136,11 @@ main {
 /*--- Section: Interests ---*/
 #interests {
   background-color: #FFF;
-  padding-bottom: 10px;
+  padding: 0 20px;
 }
 
 #interests-container {
-  margin: 10px;
+  margin: auto;
   padding: 10px;
 }
 
@@ -157,7 +157,6 @@ main {
 }
 
 #interests-container .content-4 {
-  padding-bottom: 25px;
   padding-top: 25px;
 }
 
@@ -165,7 +164,6 @@ main {
   color: #0E1111;
   font-size: 1.8rem;
   font-weight: 500;
-  padding-top: 25px;
   text-align: center;
 }
 
@@ -192,7 +190,7 @@ main {
 #footer {
   background-color: #0E1111;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 #footer-container {
@@ -350,25 +348,25 @@ main {
   /*--- Section: Footer ---*/
   #footer-container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 10px 25px;
   }
 
   #footer-container .footer-content {
-    grid-column: 1/span 6;
+    grid-column: 1/span 2;
   }
 
-  #footer-container h2 {
+  #footer-container .footer-content h2 {
     font-size: 1.6rem;
     text-align: center;
   }
 
-  #footer-container p {
+  #footer-container .footer-content p {
     font-size: 1.2rem;
     text-align: center;
   }
 
-  #footer .copy {
+  #footer-container .footer-content .copy {
     font-size: 1rem;
   }
 }
@@ -388,7 +386,7 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 85%; 
+    width: 85%;
   }
 
   /*--- Section: Introduction ---*/
@@ -410,6 +408,16 @@ main {
   }
 
   /*--- Section: Interests ---*/
+  #interests {
+    margin: auto;
+    padding: 20px;
+  }
+
+  #interests-container {
+    margin: auto;
+    padding: 0 50px 25px 50px;
+  }
+
   #interests-container h2 {
     font-size: 2.5rem;
   }
@@ -421,10 +429,6 @@ main {
   /*--- Section: Footer ---*/
   #footer {
     padding: 10px 75px;
-  }
-
-  #footer-container .footer-content {
-    grid-column: 2/span 4;
   }
 
   #footer-container h2 {
