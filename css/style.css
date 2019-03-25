@@ -47,6 +47,10 @@ img {
   padding-left: 25px;
 }
 
+#menu a:nth-child(3) {
+  padding-left: 25px;
+}
+
 #navbar a {
   color: #F5F5F5;
   font-size: 1rem;
@@ -232,6 +236,10 @@ img {
     padding-left: 35px;
   }
 
+  #menu a:nth-child(3) {
+    padding-left: 30px;
+  }
+
   /*--- Section: Header --- */
   #header-container {
     display: grid;
@@ -327,6 +335,10 @@ img {
     font-size: 1.4rem;
   }
 
+  #menu a:nth-child(3) {
+    padding-left: 30px;
+  }
+
   /*--- Section: Header ---*/
   #header-container {
     display: grid;
@@ -357,7 +369,7 @@ img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 0 50px 20px 50px;
-    max-width: 1400px; 
+    max-width: 1400px;
   }
 
   #projects-container #projects-image {

@@ -47,6 +47,10 @@ img {
   padding-left: 25px;
 }
 
+#menu a:nth-child(3) {
+  padding-left: 25px;
+}
+
 #navbar a {
   color: #F5F5F5;
   font-size: 1rem;
@@ -1480,6 +1484,10 @@ width: 33.3%;
 
   #menu a:nth-child(2) {
     padding-left: 35px;
+  }
+
+  #menu a:nth-child(3) {
+    padding-left: 30px;
   }
 
   /*--- Section: Header ---*/
@@ -3009,7 +3017,7 @@ width: 33.3%;
   #conclusion-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    max-width: 1500px; 
+    max-width: 1500px;
     padding: 0 50px 35px 50px;
   }
 
